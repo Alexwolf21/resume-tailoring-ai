@@ -1,71 +1,33 @@
-About Exotel:
+Req ID: 379550 
 
-Exotel is the emerging market’s leading full-stack customer engagement platform and business-focused virtual telecom operator. Incorporated in 2011, Exotel’s cloud-based product suite powers 50 million daily engagements across voice, video, and messaging channels. Exotel serves over 6000 companies across 60+ countries, including India, SE Asia, the Middle East, and Africa. 
+NTT DATA strives to hire exceptional, innovative and passionate individuals who want to grow with us. If you want to be part of an inclusive, adaptable, and forward-thinking organization, apply now.
 
- 
+We are currently seeking a Software Development Specialist to join our team in Bangalore, Karnātaka (IN-KA), India (IN).
 
-Tech @ Exotel
+Role Overview
 
-Exotel Engineering builds fault-tolerant, scalable, and real-time distributed systems.
-Our tech stack includes Golang, Java, PHP, MySQL, Apache Kafka, Kubernetes, Beanstalkd, and Elasticsearch.
-We follow best practices in clean abstractions, loosely coupled services, and DevOps-driven operations.
-We strongly believe in "you build it, you own it."
- 
+Responsible for developing and maintaining modern digital banking applications, contributing across both frontend and backend development while supporting the delivery of high-quality customer experiences.
 
-Team IPO Readiness:
+Key Responsibilities
 
-The IPO Readiness pod owns Exotel’s billing and revenue platform — real-time call/SMS billing, balance deduction, invoicing, payment processing, and credit control. The platform handles approximately 200k transactions per minute across Voice, Messaging, and other Exotel solutions. 
+Develop scalable applications using Node.js and React.
+Build and maintain APIs, services, and responsive user interfaces.
+Participate in solution design and technical discussions.
+Collaborate with product, design, and QA teams to deliver high-quality solutions.
+Perform unit testing, code reviews, and defect resolution.
+Support continuous improvement and engineering best practices.
+Assist with production support and performance optimisation activities.
+Core Skills
 
- 
+Node.js, React, TypeScript
+RESTful APIs and Microservices
+SQL and NoSQL databases
+Cloud-native development
+Agile/Scrum delivery experience
+Domain Experience (Preferred)
 
-Role: Member of Technical Staff II 
-
-As an MTS-II  on IPO Readiness, you will design, build, and integrate components across the billing platform and support IPO-readiness initiatives (controls, monitoring, automation). You will work on feature delivery, production support, and cross-system integrations with ERP (Business Central), payment gateways, and the Zuora migration path.
-
- 
-
-Key Responsibilities:
-
- 
-
-Platform Development & Integration:
-
-• Develop and maintain microservices and batch jobs in Golang, Java, or PHP 
-
-• Build and extend REST APIs and Kafka consumers/producers for billing events, sync flows, and fallback pipelines.
-
- 
-
-Must-Have Skills:
-
-• Strong computer science fundamentals (data structures, algorithms).
-
-• Proficiency in at least one of: Golang (preferred), Java, or PHP.
-
-• Experience building scalable distributed systems and event-driven architectures.
-
-• Hands-on MySQL — schema design, query tuning, replication awareness.
-
-• Experience with Apache Kafka and asynchronous processing (consumers, lag, fallback/retry patterns).
-
-• Kubernetes basics — pods, deployments, namespaces, ArgoCD or equivalent GitOps.
-
-• DevOps mindset — you build it, you own it; comfortable with logs, metrics, and incident triage.
-
- 
-
-Good-to-Have Skills:
-
-• Exposure to billing, invoicing, payments, or ERP integrations (Zuora, Business Central, Razorpay).
-
-• Experience with Beanstalkd, Jenkins, Prometheus/Grafana/Loki.
-
-• Scripting in Python for ops automation and report generation.
-
-• Familiarity with ITGC/SOX-style controls and audit documentation.
-
- 
-
-Experience: 2–5 years
-
-Location: Bangalore (On-site)
+Digital Banking and Financial Services
+Credit Card and Lending Platforms
+Customer Onboarding and Digital Channels
+Payments and Customer Engagement Solutions
+About NTT DATA

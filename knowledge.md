@@ -202,6 +202,14 @@ Do not list technologies that are not supported elsewhere in the resume.
 - Software Engineering (include: Concurrency, Unit Testing, Code Review — these are direct JD keywords for platform engineering roles)
 - AI & Automation (if relevant)
 
+**For full-stack / frontend-leaning roles (Node.js, React, TypeScript JDs):**
+- Rename first row to "Languages & Frontend" and include React alongside Java/JavaScript — surfaces front-end signal immediately
+- Label "Backend & APIs" instead of "Backend & Distributed Systems" — closer to JD vocabulary
+- Add "Performance Optimisation" to Software Engineering row — exact JD language for many digital banking roles
+- Label PostgreSQL as "(SQL)" and Redis as "(NoSQL)" inline — directly matches "SQL and NoSQL databases" ATS keyword
+- If candidate has React only at project level (not professional), it is still truthful to list in skills and substantiate in the project section
+- When core stack (e.g., Node.js, TypeScript) is a genuine gap: do NOT claim it; instead maximize adjacent truthful matches (JavaScript, REST APIs, microservices, SQL/NoSQL, cloud-native) and flag the gap clearly in the execution report
+
 ---
 
 # Recruiter Optimization
