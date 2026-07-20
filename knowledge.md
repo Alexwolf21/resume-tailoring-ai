@@ -11,11 +11,11 @@
 
 Prefer strong action verbs such as:
 
+- Architected
 - Designed
 - Developed
 - Implemented
 - Engineered
-- Architected
 - Automated
 - Optimized
 - Integrated
@@ -26,6 +26,8 @@ Prefer strong action verbs such as:
 - Built
 - Created
 - Migrated
+- Investigated
+- Authored
 
 Avoid repeatedly using:
 
@@ -49,6 +51,8 @@ Developed REST APIs using Spring Boot to automate deployment workflows, reducing
 
 When measurable impact is unavailable, describe the functional impact truthfully.
 
+**Lead with the most JD-relevant bullet.** For distributed systems roles, always open with the Kafka/distributed architecture bullet rather than the general platform description.
+
 ---
 
 ## Technical Wording
@@ -56,6 +60,14 @@ When measurable impact is unavailable, describe the functional impact truthfully
 Prefer precise technical terminology.
 
 Examples:
+
+Prefer:
+
+- Apache Kafka (full name improves ATS match)
+
+instead of:
+
+- Kafka
 
 Prefer:
 
@@ -89,6 +101,22 @@ instead of:
 
 - Backend applications
 
+Prefer:
+
+- Role-based access control (RBAC)
+
+instead of:
+
+- Role-based access
+
+Prefer:
+
+- Mean time to resolution (MTTR)
+
+instead of:
+
+- Incident resolution time
+
 ---
 
 # ATS Optimization
@@ -111,6 +139,19 @@ avoid replacing it with:
 
 Both may be correct, but ATS systems often prefer exact terminology.
 
+**For distributed systems / platform engineering JDs, prioritize these keywords if supported:**
+
+- Distributed systems
+- Event-driven architecture
+- Apache Kafka
+- Concurrency
+- Observability
+- Platform engineering
+- Unit testing
+- Code review
+- Design documentation
+- Cloud-native
+
 ---
 
 ## Keyword Placement
@@ -126,11 +167,18 @@ Avoid excessive repetition.
 
 ---
 
-## Skills Section
+## Skills Section Structure
 
 Skills should reflect demonstrated experience.
 
 Do not list technologies that are not supported elsewhere in the resume.
+
+**For backend/distributed systems roles, group skills as:**
+- Languages
+- Backend & Distributed Systems (combine these — more ATS-aligned than separating messaging from backend)
+- Cloud & Infrastructure
+- Software Engineering (include: Concurrency, Unit Testing, Code Review — these are direct JD keywords for platform engineering roles)
+- AI & Automation (if relevant)
 
 ---
 
@@ -145,6 +193,8 @@ Prioritize:
 - Relevant experience near the top
 - Easy-to-scan formatting
 - Concise language
+
+**For early-career / SDE 1 roles:** Education section carries more weight — position it after Projects, not after Certifications.
 
 ---
 
@@ -165,6 +215,13 @@ Prefer demonstrating:
 
 Avoid vague claims without supporting examples.
 
+**For platform engineering roles specifically:** Hiring managers value:
+- End-to-end ownership (design → deploy → monitor)
+- Log analysis and debugging skills
+- Test coverage metrics
+- Design document authorship
+- Observability tooling experience (Kibana, Grafana)
+
 ---
 
 # Resume Organization
@@ -182,6 +239,20 @@ This order may change if a different arrangement better supports the target role
 
 ---
 
+# Education Strategy
+
+## Early-Career Roles (SDE 1 / 0–2 years / New Grad)
+
+Include both degrees:
+- M.Tech (BITS Pilani, WILP) — signals continued learning
+- B.Tech with CGPA
+
+## Experienced Roles (SDE 2+ / 2+ years)
+
+Include only B.Tech with CGPA. Omit M.Tech unless directly relevant.
+
+---
+
 # Common Resume Mistakes
 
 Avoid:
@@ -193,6 +264,8 @@ Avoid:
 - Large paragraphs
 - Weak action verbs
 - Repeating identical technologies across multiple bullets without adding new information
+- Burying the most JD-relevant bullet below less relevant ones
+- Using "Kafka" alone when "Apache Kafka" is the ATS-preferred term for many platform engineering JDs
 
 ---
 
@@ -206,6 +279,13 @@ For every tailoring session:
 4. Improve readability.
 5. Remove unnecessary content if required.
 6. Keep the resume concise.
+
+**Additional strategy for distributed systems / observability roles:**
+- Move the Kafka/event-driven bullet to position 1 in experience (highest JD alignment)
+- Explicitly include "Concurrency" in the skills section — it's a core stated requirement for platform engineering JDs
+- Use "log analysis" language when describing production troubleshooting — this directly matches observability role expectations
+- Mention "design documents" or "authored design documents" if the candidate has done it — platform engineering JDs frequently list this as a requirement
+- Suppress or compress AI/LLM bullets when applying to backend/distributed systems roles where AI experience is not a differentiator
 
 ---
 

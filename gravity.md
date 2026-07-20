@@ -393,81 +393,57 @@ After completing the workflow, perform the following actions.
 
 Update:
 
-- `tailored_resume.tex` with the complete tailored LaTeX resume.
-- `knowledge.md` with any reusable resume optimization knowledge learned during the session.
+- `tailored_resume.tex`
+- `knowledge.md`
 
 Do not modify:
 
 - `base_resume.tex`
+- `candidate_profile.md`
 - `gravity.md`
 
 ---
 
-## User Report
+## Console Summary
 
-Present a concise report in the following order.
+The repository files are the primary deliverables.
 
-### 1. Executive Summary
+Do **not** provide detailed analysis, reasoning, or explanations in the chat unless explicitly requested by the user.
 
-Include:
+Return only the following summary:
 
-- ATS Score (0–100)
-- Recruiter Score (0–100)
-- Hiring Manager Score (0–100)
-- Overall Recommendation:
-  - Strong Match
-  - Good Match
-  - Moderate Match
-  - Weak Match
+### Before Tailoring
 
-Provide a one-sentence justification for the recommendation.
+- ATS Score: xx/100
+- Recruiter Score: xx/100
+- Hiring Manager Score: xx/100
 
----
+### After Tailoring
 
-### 2. Analysis Summary
+- ATS Score: xx/100
+- Recruiter Score: xx/100
+- Hiring Manager Score: xx/100
 
-Summarize:
+### Status
 
-- Top strengths
-- Top weaknesses
-- Missing keywords
-- Missing technical skills
-- Biggest opportunities for improvement
+- Overall Recommendation: Strong Match / Good Match / Moderate Match / Weak Match
+- Tailoring completed successfully.
+- `tailored_resume.tex` updated.
+- `knowledge.md` updated.
 
----
+If genuine experience gaps remain, list them as a short bullet list.
 
-### 3. Tailoring Summary
+Do not:
 
-Summarize the meaningful changes made to the resume.
+- Explain ATS analysis.
+- Explain recruiter analysis.
+- Explain hiring manager analysis.
+- Explain resume changes.
+- Print the resume.
+- Print the contents of `knowledge.md`.
+- Print detailed reasoning.
 
-Examples:
-
-- Reordered sections
-- Strengthened action verbs
-- Improved technical terminology
-- Added relevant ATS keywords
-- Improved readability
-- Reduced redundant wording
-
-Do not list minor wording edits.
-
----
-
-### 4. Remaining Gaps
-
-Identify any genuine requirements from the Job Description that could not be addressed without fabricating or exaggerating experience.
-
----
-
-### 5. Knowledge Updates
-
-Briefly summarize any reusable knowledge that was added or refined in `knowledge.md`.
-
----
-
-Do not include the complete contents of `tailored_resume.tex` unless the user explicitly requests it.
-
----
+Keep the entire console summary under 15 lines unless the user explicitly asks for a detailed report.
 
 # Guiding Principle
 

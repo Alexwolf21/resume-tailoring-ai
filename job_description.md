@@ -1,58 +1,50 @@
-Become a Part of the NIKE, Inc. Team
+Introduction
+ 
+At IBM Software, we transform client challenges into solutions. Building the world’s leading AI-powered, cloud-native products that shape the future of business and society. Our legacy of innovation creates endless opportunities for IBMers to learn, grow, and make an impact on a global scale. Working in Software means joining a team fueled by curiosity and collaboration. You’ll work with diverse technologies, partners, and industries to design, develop, and deliver solutions that power digital transformation. With a culture that values innovation, growth, and continuous learning, IBM Software places you at the heart of IBM’s product and technology landscape. Here, you’ll have the tools and opportunities to advance your career while creating software that changes the world.
 
-NIKE, Inc. does more than outfit the world’s best athletes. It’s a place where passionate individuals come together to create the future of sport. We are unapologetic about who we are and what we’re after—bringing innovation and inspiration to every athlete* in the world. We look for athletes who can push boundaries, elevate our potential and continue leading us to greatness. The next tastemakers, playmakers, risk takers and glue players. Are you game?
+Your role and responsibilities
+The Hybrid Observability & Management charter includes both Unified Stream Manager (USM) and Confluent Control Center (C3), with a shared goal of delivering a consistent, enterprise-grade management, observability, and security experience across on-prem, cloud, and hybrid Confluent Platform deployments.
 
-WHO YOU’LL WORK WITH
-At Nike, we harness the power of data and technology to serve athletes* worldwide. The Data, Analytics, and Intelligence (DAI) team is at the forefront of this mission—building scalable, secure, and intelligent platforms that enable data-driven decision-making and personalized experiences across the Nike ecosystem.
+ As a Software Engineer on this team, you will work on well-defined, scoped pieces of USM or C3, with guidance and mentorship from senior engineers, while learning the fundamentals of building and operating platform software at scale. On the USM side, that means contributing to hybrid-first management and operational capabilities; on the C3 side, it means helping improve cluster health, topic and consumer monitoring, connector visibility, and management workflows. This role is a strong fit for an engineer early in their career who wants to build depth in distributed systems and platform engineering. You'll work closely with experienced engineers to deliver reliable, well-tested software, and grow into owning a specific sub-component of USM or C3 as you build expertise.
 
-WHO WE ARE LOOKING FOR
-We are looking for candidates who enjoy a collaborative and academic environment where we develop and share new skills, mentor, and contribute knowledge and software back to the analytics and engineering communities both within Nike and at-large.
+ - Deliver well-scoped tasks and features on time, with code review and mentorship from senior engineers.
 
-We value and nurture our culture by seeking to always be collaborative, intellectually curious, fun, open, and diverse.
+ - Contribute to USM capabilities (Agent, Cloud Console) or C3 workflows (cluster health, topic visibility, consumer monitoring, connector status) depending on team roadmap needs.
 
-Undergraduate degree in Computer Science, or equivalent experience
+ - Write design one-pagers for your own sub-tasks and incorporate feedback from stakeholders and peers.
 
-1+ years of professional software engineering experience
+ - Learn Confluent's engineering practices: coding standards, Dev Prod tooling, release process, and design review process. 
 
-Strong problem solving and analytical mindset
+- Write tests, fix bugs, and participate in code reviews to build a habit of quality and craftsmanship.
 
-Ability to write robust, maintainable, and extendable code in Python
+- Help troubleshoot production and customer-facing issues by analyzing logs and metrics, with support from senior teammates.
 
-Nice to have familiarity with front-end languages (HTML, CSS, JavaScript or TypeScript) and UI frameworks such as React or rapid-prototyping tools such as Streamlit
+ - Participate in on-call rotation with mentorship, learning to debug and mitigate issues under guidance. 
 
-Experience with Infrastructure-as-Code (IaC) and GitOps workflows
+ - Take ownership of a specific sub-component of USM or C3 and grow into the go-to person for it.
 
-Experience with cloud architecture and technologies, in particular Amazon Web Services and large-scale application development on cloud platforms
+Required education
+Bachelor's Degree
+Preferred education
+Master's Degree
+Required technical and professional expertise
+1-2 years of hands-on software development experience (new grads welcome). - Solid fundamentals in data structures, algorithms, concurrency, networking, and operating systems.
 
-Experience and familiarity with containerization (Docker), CI/CD pipelines, industry instrumentation standards (OTEL) and tools (e.g., Splunk) and dependency management tools (e.g., uv)
+ - Ability to write clean, maintainable, well-tested code in at least one modern language (Java, Go, or similar)
 
-Familiarity with agile development and test-driven development
+ - Curiosity about distributed systems and how large-scale services like Kafka are designed and operated.
 
-Understanding of data structures, data modeling and software architecture
+ - A self-starter mindset — comfortable asking questions, seeking feedback, and iterating based on code review. - Strong communication skills and willingness to collaborate closely with a small team.
 
-Familiarity with enterprise authentication/authorization protocols (OAuth, OIDC, Okta, or similar SSO platforms).
+ - BS in Computer Science, Engineering, or equivalent practical experience
 
-Effective verbal and written communication skills (with team members, the business, and in code).
+Preferred technical and professional experience
+Good To Have
 
-WHAT YOU’LL WORK ON
-We seek passionate Software Engineers to join our team. As a Software Engineer, you will be designing and delivering robust, scalable AI/ML solutions that accelerate insights at enterprise scale. You should have experience in Python and nice to have some familiarity with front end technologies and building user-facing applications; a strong background in algorithms and data structures; hands-on AWS experience; as well as familiarity in database technology (e.g. Postgres, Redis).
+- Coursework or projects involving Apache Kafka, distributed systems, or cloud infrastructure.
 
-As a Software Engineer, you will:
+- Exposure to Kubernetes, Docker, or cloud platforms (AWS/GCP/Azure).
 
-Design, develop, and maintain scalable AI services powering Nike’s data platforms.
+ - Contributions to open-source projects. - Interest in observability or platform engineering.
 
-Build SDKs, APIs, and microservices to support enterprise-wide applications.
-
-Develop agentic workflows and AI/LLM-powered enterprise applications.
-
-Build user-facing applications and internal tools using modern UI frameworks (e.g., React, Streamlit) to surface AI/ML capabilities to end users.
-
-Collaborate with product managers and cross-functional engineering teams to deliver impactful solutions.
-
-Implement best practices in software development, data governance, and platform observability.
-
-Participate in code reviews, provide constructive feedback as well as incorporate feedback given.
-
-NIKE, Inc. is a growth company that looks for team members to grow with it. Nike offers a generous total rewards package, casual work environment, a diverse and inclusive culture, and an electric atmosphere for professional development. No matter the location, or the role, every Nike employee shares one galvanizing mission: To bring inspiration and innovation to every athlete* in the world.
-
-NIKE, Inc. is an equal opportunity employer. Qualified applicants will receive consideration without regard to race, color, religion, sex, national origin, age, sexual orientation, gender identity, gender expression, veteran status, or disability.
+Years of Experience:1 - 4
