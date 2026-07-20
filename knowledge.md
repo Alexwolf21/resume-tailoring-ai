@@ -152,6 +152,28 @@ Both may be correct, but ATS systems often prefer exact terminology.
 - Design documentation
 - Cloud-native
 
+**For fintech / high-scale integration JDs (e.g., Intuit, Stripe, PayPal), prioritize if supported:**
+
+- Messaging patterns
+- High-volume / large-scale / testable systems
+- API design / client-server contracts
+- Data aggregation / data pipeline
+- Relational database schema design
+- Deployment strategies
+- Agile/Scrum
+- Integration (internal services / external partners)
+
+**For telecom / billing / real-time infrastructure JDs (e.g., Exotel, Twilio, Razorpay), prioritize if supported:**
+
+- Fault-tolerant distributed systems
+- Apache Kafka consumers/producers (use exact phrasing — this is the JD wording)
+- Asynchronous processing / fallback and retry logic
+- Incident triage (exact JD language for production debugging roles)
+- Schema design (use instead of "database experience" for specificity)
+- Python scripting / ops automation
+- "You build it, you own it" framing → translate to "end-to-end ownership" or "owned features from design through deployment"
+- Payment processing / fund management (from EBaazee project — highly relevant to billing platforms)
+
 ---
 
 ## Keyword Placement
@@ -286,6 +308,16 @@ For every tailoring session:
 - Use "log analysis" language when describing production troubleshooting — this directly matches observability role expectations
 - Mention "design documents" or "authored design documents" if the candidate has done it — platform engineering JDs frequently list this as a requirement
 - Suppress or compress AI/LLM bullets when applying to backend/distributed systems roles where AI experience is not a differentiator
+
+**Additional strategy for fintech / high-scale integration roles:**
+- Lead with platform scale bullet ("10,000+ systems", "millions of users") before Kafka bullet — scale signals are primary differentiators
+- Frame Kafka experience as "data pipeline" — matches fintech vocabulary more precisely than "event monitoring"
+- Promote RabbitMQ (from project) into the skills section prominently alongside Kafka — fintech JDs list both
+- Use "messaging patterns" as a category label (not just individual tools) — this is the exact JD terminology
+- Add "relational database schema design" to skills when JD mentions SQL/ORM — it's a specific ATS keyword
+- Add "API design" and "client-server contracts" language to project bullets when building REST services
+- Add "Agile/Scrum" to skills if the candidate works in sprint-based teams at an enterprise — it is defensible and frequently required
+- Education Variant B (B.Tech only) applies for 2+ year experienced hire roles; Variant A (both degrees) for early-career/new-grad roles
 
 ---
 

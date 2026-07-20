@@ -1,50 +1,71 @@
-Introduction
+About Exotel:
+
+Exotel is the emerging market’s leading full-stack customer engagement platform and business-focused virtual telecom operator. Incorporated in 2011, Exotel’s cloud-based product suite powers 50 million daily engagements across voice, video, and messaging channels. Exotel serves over 6000 companies across 60+ countries, including India, SE Asia, the Middle East, and Africa. 
+
  
-At IBM Software, we transform client challenges into solutions. Building the world’s leading AI-powered, cloud-native products that shape the future of business and society. Our legacy of innovation creates endless opportunities for IBMers to learn, grow, and make an impact on a global scale. Working in Software means joining a team fueled by curiosity and collaboration. You’ll work with diverse technologies, partners, and industries to design, develop, and deliver solutions that power digital transformation. With a culture that values innovation, growth, and continuous learning, IBM Software places you at the heart of IBM’s product and technology landscape. Here, you’ll have the tools and opportunities to advance your career while creating software that changes the world.
 
-Your role and responsibilities
-The Hybrid Observability & Management charter includes both Unified Stream Manager (USM) and Confluent Control Center (C3), with a shared goal of delivering a consistent, enterprise-grade management, observability, and security experience across on-prem, cloud, and hybrid Confluent Platform deployments.
+Tech @ Exotel
 
- As a Software Engineer on this team, you will work on well-defined, scoped pieces of USM or C3, with guidance and mentorship from senior engineers, while learning the fundamentals of building and operating platform software at scale. On the USM side, that means contributing to hybrid-first management and operational capabilities; on the C3 side, it means helping improve cluster health, topic and consumer monitoring, connector visibility, and management workflows. This role is a strong fit for an engineer early in their career who wants to build depth in distributed systems and platform engineering. You'll work closely with experienced engineers to deliver reliable, well-tested software, and grow into owning a specific sub-component of USM or C3 as you build expertise.
+Exotel Engineering builds fault-tolerant, scalable, and real-time distributed systems.
+Our tech stack includes Golang, Java, PHP, MySQL, Apache Kafka, Kubernetes, Beanstalkd, and Elasticsearch.
+We follow best practices in clean abstractions, loosely coupled services, and DevOps-driven operations.
+We strongly believe in "you build it, you own it."
+ 
 
- - Deliver well-scoped tasks and features on time, with code review and mentorship from senior engineers.
+Team IPO Readiness:
 
- - Contribute to USM capabilities (Agent, Cloud Console) or C3 workflows (cluster health, topic visibility, consumer monitoring, connector status) depending on team roadmap needs.
+The IPO Readiness pod owns Exotel’s billing and revenue platform — real-time call/SMS billing, balance deduction, invoicing, payment processing, and credit control. The platform handles approximately 200k transactions per minute across Voice, Messaging, and other Exotel solutions. 
 
- - Write design one-pagers for your own sub-tasks and incorporate feedback from stakeholders and peers.
+ 
 
- - Learn Confluent's engineering practices: coding standards, Dev Prod tooling, release process, and design review process. 
+Role: Member of Technical Staff II 
 
-- Write tests, fix bugs, and participate in code reviews to build a habit of quality and craftsmanship.
+As an MTS-II  on IPO Readiness, you will design, build, and integrate components across the billing platform and support IPO-readiness initiatives (controls, monitoring, automation). You will work on feature delivery, production support, and cross-system integrations with ERP (Business Central), payment gateways, and the Zuora migration path.
 
-- Help troubleshoot production and customer-facing issues by analyzing logs and metrics, with support from senior teammates.
+ 
 
- - Participate in on-call rotation with mentorship, learning to debug and mitigate issues under guidance. 
+Key Responsibilities:
 
- - Take ownership of a specific sub-component of USM or C3 and grow into the go-to person for it.
+ 
 
-Required education
-Bachelor's Degree
-Preferred education
-Master's Degree
-Required technical and professional expertise
-1-2 years of hands-on software development experience (new grads welcome). - Solid fundamentals in data structures, algorithms, concurrency, networking, and operating systems.
+Platform Development & Integration:
 
- - Ability to write clean, maintainable, well-tested code in at least one modern language (Java, Go, or similar)
+• Develop and maintain microservices and batch jobs in Golang, Java, or PHP 
 
- - Curiosity about distributed systems and how large-scale services like Kafka are designed and operated.
+• Build and extend REST APIs and Kafka consumers/producers for billing events, sync flows, and fallback pipelines.
 
- - A self-starter mindset — comfortable asking questions, seeking feedback, and iterating based on code review. - Strong communication skills and willingness to collaborate closely with a small team.
+ 
 
- - BS in Computer Science, Engineering, or equivalent practical experience
+Must-Have Skills:
 
-Preferred technical and professional experience
-Good To Have
+• Strong computer science fundamentals (data structures, algorithms).
 
-- Coursework or projects involving Apache Kafka, distributed systems, or cloud infrastructure.
+• Proficiency in at least one of: Golang (preferred), Java, or PHP.
 
-- Exposure to Kubernetes, Docker, or cloud platforms (AWS/GCP/Azure).
+• Experience building scalable distributed systems and event-driven architectures.
 
- - Contributions to open-source projects. - Interest in observability or platform engineering.
+• Hands-on MySQL — schema design, query tuning, replication awareness.
 
-Years of Experience:1 - 4
+• Experience with Apache Kafka and asynchronous processing (consumers, lag, fallback/retry patterns).
+
+• Kubernetes basics — pods, deployments, namespaces, ArgoCD or equivalent GitOps.
+
+• DevOps mindset — you build it, you own it; comfortable with logs, metrics, and incident triage.
+
+ 
+
+Good-to-Have Skills:
+
+• Exposure to billing, invoicing, payments, or ERP integrations (Zuora, Business Central, Razorpay).
+
+• Experience with Beanstalkd, Jenkins, Prometheus/Grafana/Loki.
+
+• Scripting in Python for ops automation and report generation.
+
+• Familiarity with ITGC/SOX-style controls and audit documentation.
+
+ 
+
+Experience: 2–5 years
+
+Location: Bangalore (On-site)
