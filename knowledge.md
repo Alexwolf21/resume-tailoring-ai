@@ -1,7 +1,7 @@
 # Resume Tailoring Knowledge Base
 
-> This document contains reusable knowledge that improves future resume tailoring.
-> It stores general resume optimization principles, not application-specific information.
+> Reusable resume optimization knowledge. Updated after every tailoring session.
+> Never stores company names, individual JDs, or personal information.
 
 ---
 
@@ -9,343 +9,254 @@
 
 ## Action Verbs
 
-Prefer strong action verbs such as:
+Prefer strong action verbs:
 
-- Architected
-- Designed
-- Developed
-- Implemented
-- Engineered
-- Automated
-- Optimized
-- Integrated
-- Refactored
-- Enhanced
-- Streamlined
-- Delivered
-- Built
-- Created
-- Migrated
-- Investigated
-- Authored
+Architected · Designed · Developed · Implemented · Engineered · Owned · Automated · Optimized · Integrated · Delivered · Built · Investigated · Authored · Streamlined · Migrated · Refactored
 
-Avoid repeatedly using:
-
-- Worked on
-- Helped
-- Responsible for
-- Participated in
-- Involved in
+Avoid: Worked on · Helped · Responsible for · Participated in · Involved in
 
 ---
 
 ## Bullet Structure
 
-Prefer bullets that follow this pattern:
+**Pattern:** Action → Technology → Result
 
-Action → Technology → Result
+Example: *Developed REST APIs using Spring Boot to automate deployment workflows, reducing manual operational effort.*
 
-Example:
-
-Developed REST APIs using Spring Boot to automate deployment workflows, reducing manual operational effort.
-
-When measurable impact is unavailable, describe the functional impact truthfully.
-
-**Lead with the most JD-relevant bullet.** For distributed systems roles, always open with the Kafka/distributed architecture bullet rather than the general platform description.
+- When measurable impact is available, always include it (%, time saved, scale).
+- When unavailable, describe functional impact truthfully.
+- **Lead with the most JD-relevant bullet.** Never bury the highest-alignment content below general bullets.
+- Keep bullets to 1–2 lines. Split into separate bullets if a single bullet covers too many distinct ideas.
 
 ---
 
-## Technical Wording
+## Technical Wording Preferences
 
-Prefer precise technical terminology.
-
-Examples:
-
-Prefer:
-
-- Apache Kafka (full name improves ATS match)
-
-instead of:
-
-- Kafka
-
-Prefer:
-
-- REST APIs
-
-instead of:
-
-- Web APIs
-
-Prefer:
-
-- Microservices
-
-instead of:
-
-- Multiple services
-
-Prefer:
-
-- Event-driven architecture
-
-instead of:
-
-- Event-based system
-
-Prefer:
-
-- Backend services
-
-instead of:
-
-- Backend applications
-
-Prefer:
-
-- Role-based access control (RBAC)
-
-instead of:
-
-- Role-based access
-
-Prefer:
-
-- Mean time to resolution (MTTR)
-
-instead of:
-
-- Incident resolution time
+| Prefer | Instead of |
+|---|---|
+| Apache Kafka (full name) | Kafka alone |
+| REST APIs | Web APIs |
+| Microservices | Multiple services |
+| Event-driven architecture | Event-based system |
+| Backend services | Backend applications |
+| Role-based access control (RBAC) | Role-based access |
+| Mean time to resolution (MTTR) | Incident resolution time |
+| Pub/sub model | Kafka messaging (when JD uses "pub/sub") |
+| Pub/sub messaging | Event queue |
+| Schema design | Database experience |
+| Optimized queries | Database queries |
+| Validation & testing | Testing |
+| Debugging | Troubleshooting (when JD uses "debugging") |
 
 ---
 
 # ATS Optimization
 
-## Keyword Usage
+## Keyword Strategy by Role Type
 
-Use terminology that naturally matches the Job Description whenever supported by the candidate's experience.
+### Backend / Distributed Systems / Platform Engineering
+Keywords to prioritize if supported:
+- Distributed systems · Event-driven architecture · Apache Kafka · Concurrency
+- Pub/sub model · Pub/sub messaging
+- Platform engineering · Cloud-native · Observability
+- Unit testing · Code review · Design documentation
 
-Prefer exact terminology used by employers.
+### Fintech / High-Scale Integration
+Keywords to prioritize if supported:
+- Messaging patterns · High-volume / large-scale / testable systems
+- API design · Client-server contracts · Data aggregation · Data pipeline
+- Relational database schema design · Deployment strategies
+- Agile/Scrum · Integration (internal services / external partners)
 
-Example:
-
-If the JD says:
-
-- Spring Boot
-
-avoid replacing it with:
-
-- Java Backend
-
-Both may be correct, but ATS systems often prefer exact terminology.
-
-**For distributed systems / platform engineering JDs, prioritize these keywords if supported:**
-
-- Distributed systems
-- Event-driven architecture
-- Apache Kafka
-- Concurrency
-- Observability
-- Platform engineering
-- Unit testing
-- Code review
-- Design documentation
-- Cloud-native
-
-**For fintech / high-scale integration JDs (e.g., Intuit, Stripe, PayPal), prioritize if supported:**
-
-- Messaging patterns
-- High-volume / large-scale / testable systems
-- API design / client-server contracts
-- Data aggregation / data pipeline
-- Relational database schema design
-- Deployment strategies
-- Agile/Scrum
-- Integration (internal services / external partners)
-
-**For telecom / billing / real-time infrastructure JDs (e.g., Exotel, Twilio, Razorpay), prioritize if supported:**
-
+### Telecom / Billing / Real-Time Infrastructure
+Keywords to prioritize if supported:
 - Fault-tolerant distributed systems
-- Apache Kafka consumers/producers (use exact phrasing — this is the JD wording)
-- Asynchronous processing / fallback and retry logic
+- Apache Kafka consumers/producers (use exact phrasing when JD uses it)
+- Asynchronous processing · Fallback and retry logic
 - Incident triage (exact JD language for production debugging roles)
-- Schema design (use instead of "database experience" for specificity)
-- Python scripting / ops automation
-- "You build it, you own it" framing → translate to "end-to-end ownership" or "owned features from design through deployment"
-- Payment processing / fund management (from EBaazee project — highly relevant to billing platforms)
+- Schema design · Python scripting / ops automation
+- "You build it, you own it" → translate to "end-to-end ownership" or "owned features from design through deployment"
+- Payment processing / fund management (EBaazee project is highly relevant for billing platforms)
+
+### Enterprise SaaS / Product Engineering
+Keywords to prioritize if supported:
+- Pub/sub model (exact JD phrasing for Kafka when used in enterprise SaaS JDs)
+- Architectural and feature specs (matches JD language for design documentation)
+- Product development organisation (SAP is a product company — signal this)
+- Medium-to-large complexity features (ownership framing)
+- Claude (Anthropic) — when JD explicitly names it, list in skills by full name for direct ATS match
+- Agentic AI — surface prominently for AI-forward engineering JDs
+
+### Full-Stack / Frontend-Leaning (Node.js, React, TypeScript JDs)
+Keywords to prioritize if supported:
+- REST APIs · Microservices · SQL and NoSQL databases · Cloud-native development
+- Agile/Scrum delivery · Performance optimisation
+- React (project-level is truthful and listable in skills)
+- When Node.js/TypeScript is a genuine gap: maximize adjacent matches, flag clearly
+
+### Cloud SaaS / Mission-Critical Infrastructure
+Keywords to prioritize if supported:
+- Backend architectural patterns (exact JD language)
+- Validation & testing · Debugging (use exact JD phrasing)
+- Cloud-based SaaS · Optimized queries
+- Python scripting / automation
+- SQL/NoSQL databases (label PostgreSQL as "(SQL)" and Redis as "(NoSQL)" inline)
 
 ---
 
 ## Keyword Placement
 
-Important keywords should ideally appear within:
+Place important keywords in:
+1. Professional Summary
+2. Technical Skills
+3. Recent Experience (first 2 bullets)
+4. Relevant Projects
 
-- Summary
-- Technical Skills
-- Recent Experience
-- Relevant Projects
-
-Avoid excessive repetition.
+Avoid excessive repetition across multiple bullets.
 
 ---
 
-## Skills Section Structure
+# Skills Section Structure
 
-Skills should reflect demonstrated experience.
+Skills must reflect demonstrated experience. Do not list technologies without support elsewhere in the resume.
 
-Do not list technologies that are not supported elsewhere in the resume.
+## Row Labeling by Role
 
-**For backend/distributed systems roles, group skills as:**
-- Languages
-- Backend & Distributed Systems (combine these — more ATS-aligned than separating messaging from backend)
-- Cloud & Infrastructure
-- Software Engineering (include: Concurrency, Unit Testing, Code Review — these are direct JD keywords for platform engineering roles)
-- AI & Automation (if relevant)
+| Role Type | Recommended Row Labels |
+|---|---|
+| Backend / Distributed Systems | Languages · Backend & Distributed Systems · Cloud & Infrastructure · Software Engineering · AI & Automation |
+| Fintech / High-Scale | Languages · Backend & Messaging · Cloud & Infrastructure · Software Engineering · AI & Automation |
+| Telecom / Billing | Languages · Backend & Distributed Systems · DevOps & Monitoring · Software Engineering · AI & Automation |
+| Enterprise SaaS / Product Eng. | Languages · Backend & Pub/Sub · Cloud & DevOps · Software Engineering · AI & Automation |
+| Full-Stack / Frontend | Languages & Frontend · Backend & APIs · Cloud & DevOps · Software Engineering · AI & Automation |
+| Cloud SaaS / Infrastructure | Languages · Backend & APIs · Cloud & Infrastructure · Software Engineering · AI & Automation |
 
-**For full-stack / frontend-leaning roles (Node.js, React, TypeScript JDs):**
-- Rename first row to "Languages & Frontend" and include React alongside Java/JavaScript — surfaces front-end signal immediately
-- Label "Backend & APIs" instead of "Backend & Distributed Systems" — closer to JD vocabulary
-- Add "Performance Optimisation" to Software Engineering row — exact JD language for many digital banking roles
-- Label PostgreSQL as "(SQL)" and Redis as "(NoSQL)" inline — directly matches "SQL and NoSQL databases" ATS keyword
-- If candidate has React only at project level (not professional), it is still truthful to list in skills and substantiate in the project section
-- When core stack (e.g., Node.js, TypeScript) is a genuine gap: do NOT claim it; instead maximize adjacent truthful matches (JavaScript, REST APIs, microservices, SQL/NoSQL, cloud-native) and flag the gap clearly in the execution report
+## Row-Specific Tips
+
+- **Languages row**: Reorder to lead with the JD's primary language. Python should lead for Python-first roles; Java for Java roles.
+- **SQL/NoSQL labeling**: When JD says "SQL and NoSQL databases", label inline: `PostgreSQL (SQL)` and `Redis (NoSQL)` — direct ATS match.
+- **Messaging row**: Use "Backend & Messaging" or "Backend & Pub/Sub" when Kafka/RabbitMQ are JD-primary tools.
+- **AI row**: Include when role is AI-forward or when Claude/Anthropic is explicitly named in JD. Compress or omit when applying to pure backend/infrastructure roles where AI is not relevant.
+- **Software Engineering row**: Add exact JD phrasing — "Validation & Testing", "Debugging", "Backend Architectural Patterns", "Performance Optimisation" — based on JD requirements.
+- Maintain 4–5 rows maximum for single-page budget.
+
+---
+
+# Education Strategy
+
+## Variant A — Early-Career / Premier Institute Signal Required
+**Include both degrees:**
+- M.Tech: BITS Pilani, WILP (August 2024 – June 2026) — Software Engineering
+- B.Tech: OUTR (August 2020 – June 2024) — CGPA: 8.74
+
+**Trigger conditions:**
+- Role is SDE 1 / Software Engineer I / New Grad / 0–2 years experience
+- JD explicitly requires "premier institute" or prefers M.Tech
+- M.Tech directly strengthens the profile for the target role
+
+**Compact format (saves vertical space):**
+```
+\textbf{BITS Pilani, WILP $|$ } Aug 2024 -- Jun 2026 \hfill \textit{M.Tech, Software Engineering}
+\textbf{OUTR $|$ } Aug 2020 -- Jun 2024 \hfill \textit{B.Tech, Electronics & Instrumentation | CGPA: 8.74}
+```
+
+## Variant B — Experienced Hire
+**Include B.Tech only.** Omit M.Tech unless JD explicitly requests it.
+
+**Trigger conditions:**
+- Role is SDE 2+ / experienced hire / 2+ years
+- No "premier institute" or M.Tech signal in JD
+- Professional experience should take precedence over education
 
 ---
 
 # Recruiter Optimization
 
-Recruiters spend only a short time on the initial resume review.
-
-Prioritize:
-
-- Clear section hierarchy
-- Strong opening bullets
-- Relevant experience near the top
-- Easy-to-scan formatting
-- Concise language
-
-**For early-career / SDE 1 roles:** Education section carries more weight — position it after Projects, not after Certifications.
+- Prioritize: clear hierarchy · strong opening bullets · relevant experience near top · easy-to-scan format
+- For early-career roles: education section carries more weight
+- Recruiters spend ~10 seconds on first pass — first 2 experience bullets determine shortlisting
 
 ---
 
 # Hiring Manager Preferences
 
-Hiring managers typically value evidence over claims.
-
 Prefer demonstrating:
-
-- Ownership
-- Technical depth
-- Problem solving
+- End-to-end ownership (design → deploy → monitor)
+- Technical depth with evidence (metrics: %, scale, MTTR)
+- Problem solving with specific technologies
 - System design exposure
-- API development
-- Cloud technologies
-- Testing
-- Automation
+- Testing discipline (coverage %, automated suites)
+- Observability tooling (Kibana, Grafana, Dynatrace)
 
 Avoid vague claims without supporting examples.
-
-**For platform engineering roles specifically:** Hiring managers value:
-- End-to-end ownership (design → deploy → monitor)
-- Log analysis and debugging skills
-- Test coverage metrics
-- Design document authorship
-- Observability tooling experience (Kibana, Grafana)
 
 ---
 
 # Resume Organization
 
 General preferred order:
-
-1. Summary (if included)
+1. Professional Summary
 2. Technical Skills
-3. Professional Experience
+3. Work Experience
 4. Projects
 5. Education
-6. Certifications
-
-This order may change if a different arrangement better supports the target role.
+6. Certifications & Honors
 
 ---
 
-# Education Strategy
+# Page Budget Management
 
-## Early-Career Roles (SDE 1 / 0–2 years / New Grad)
+Target: single page.
 
-Include both degrees:
-- M.Tech (BITS Pilani, WILP) — signals continued learning
-- B.Tech with CGPA
+Space-saving techniques (in order of priority):
+1. Tighten verbose bullets (remove filler phrases)
+2. Merge two low-priority bullets into one
+3. Compress Education to single-line format (Variant A)
+4. Collapse 5 skills rows to 4 by merging least-important categories
+5. Reduce `\vspace` between sections
 
-## Experienced Roles (SDE 2+ / 2+ years)
-
-Include only B.Tech with CGPA. Omit M.Tech unless directly relevant.
+When adding new content (e.g., AI bullet), always offset by compressing or merging a lower-priority bullet.
 
 ---
 
 # Common Resume Mistakes
 
 Avoid:
-
-- Keyword stuffing
-- Generic wording
-- Unsupported claims
-- Redundant bullets
-- Large paragraphs
-- Weak action verbs
-- Repeating identical technologies across multiple bullets without adding new information
-- Burying the most JD-relevant bullet below less relevant ones
-- Using "Kafka" alone when "Apache Kafka" is the ATS-preferred term for many platform engineering JDs
+- Keyword stuffing or repeating the same technology in every bullet
+- Generic wording with no technical specifics
+- Unsupported claims (technologies not backed by experience or projects)
+- Burying the most JD-relevant bullet below general bullets
+- Using bare "Kafka" when "Apache Kafka" is the ATS-preferred term
+- Listing Node.js, TypeScript, Kubernetes, Golang, Scala, or Go unless genuinely used
+- Using "Worked on" or "Helped with" — always use an action verb
 
 ---
 
-# Tailoring Strategy
+# Tailoring Checklist
 
-For every tailoring session:
-
-1. Preserve truthfulness.
-2. Increase relevance.
-3. Improve keyword alignment.
-4. Improve readability.
-5. Remove unnecessary content if required.
-6. Keep the resume concise.
-
-**Additional strategy for distributed systems / observability roles:**
-- Move the Kafka/event-driven bullet to position 1 in experience (highest JD alignment)
-- Explicitly include "Concurrency" in the skills section — it's a core stated requirement for platform engineering JDs
-- Use "log analysis" language when describing production troubleshooting — this directly matches observability role expectations
-- Mention "design documents" or "authored design documents" if the candidate has done it — platform engineering JDs frequently list this as a requirement
-- Suppress or compress AI/LLM bullets when applying to backend/distributed systems roles where AI experience is not a differentiator
-
-**Additional strategy for fintech / high-scale integration roles:**
-- Lead with platform scale bullet ("10,000+ systems", "millions of users") before Kafka bullet — scale signals are primary differentiators
-- Frame Kafka experience as "data pipeline" — matches fintech vocabulary more precisely than "event monitoring"
-- Promote RabbitMQ (from project) into the skills section prominently alongside Kafka — fintech JDs list both
-- Use "messaging patterns" as a category label (not just individual tools) — this is the exact JD terminology
-- Add "relational database schema design" to skills when JD mentions SQL/ORM — it's a specific ATS keyword
-- Add "API design" and "client-server contracts" language to project bullets when building REST services
-- Add "Agile/Scrum" to skills if the candidate works in sprint-based teams at an enterprise — it is defensible and frequently required
-- Education Variant B (B.Tech only) applies for 2+ year experienced hire roles; Variant A (both degrees) for early-career/new-grad roles
+For every session:
+1. Identify JD's primary stack → check candidate truthfulness for each item
+2. Apply correct Education Variant (A or B)
+3. Reorder Languages row to lead with JD's primary language
+4. Relabel skills rows to match JD vocabulary
+5. Move most JD-relevant experience bullet to position 1
+6. Inject JD's exact phrasing naturally into bullets
+7. Compress or merge lower-priority content to maintain single page
+8. Flag genuine gaps clearly — never compensate with misleading wording
 
 ---
 
-# Long-Term Improvements
+# Things Never To Claim
 
-Store only reusable insights that improve future tailoring.
-
-Examples:
-
-- Better wording patterns
-- Better technical terminology
-- Frequently recurring industry keywords
-- Better bullet structures
-- Better section ordering
-- Resume optimization techniques
-
-Never store:
-
-- Company names
-- Individual job descriptions
-- Temporary tailoring decisions
-- Confidential information
-- Personal information
+Do not claim experience with:
+- Production Kubernetes administration
+- Golang / Go (production)
+- Scala (production)
+- Node.js (professional)
+- TypeScript (professional)
+- Terraform infrastructure development
+- Production .NET development
+- Large-scale frontend React (beyond EBaazee project)
+- MySQL (candidate has PostgreSQL — say SQL/schema design instead)
+- Amazon SQS, Beanstalkd, Zuora, Business Central (not in profile)
+- Azure or GCP (not in profile)
