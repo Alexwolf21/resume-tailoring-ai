@@ -87,12 +87,34 @@ Keywords to prioritize if supported:
 - Claude (Anthropic) — when JD explicitly names it, list in skills by full name for direct ATS match
 - Agentic AI — surface prominently for AI-forward engineering JDs
 
+### Retail / Enterprise Platform (Mid-Level / SDE 2)
+Keywords to prioritize if supported:
+- Technical leadership of medium to large features · End-to-end stories
+- Raising the quality bar · Peer review code
+- Data driven decision making techniques · Data Analytics & Insights
+- Operations and maintenance · Software security
+- Support, coach, and mentor (if applicable, can frame collaborative work as raising the bar)
+
 ### Full-Stack / Frontend-Leaning (Node.js, React, TypeScript JDs)
 Keywords to prioritize if supported:
 - REST APIs · Microservices · SQL and NoSQL databases · Cloud-native development
 - Agile/Scrum delivery · Performance optimisation
 - React (project-level is truthful and listable in skills)
+- Front-end architecture · Component design · State management
+- End-to-end feature delivery (across UI, API, integration layers)
+- Engineering Quality: Clean, maintainable, well-tested code
+- Observability, logging, and operational readiness
+- AI-Augmented Development (GitHub Copilot, Claude Code) — elevate to dedicated skills row if JD emphasizes developer productivity tools
 - When Node.js/TypeScript is a genuine gap: maximize adjacent matches, flag clearly
+
+### Cloud-Native Architect / Java Microservices
+Keywords to prioritize if supported:
+- Cloud-native solutions · Java microservice architecture
+- Non-functional requirements (scalability, availability, maintainability)
+- CI/CD pipelines · Containerization / orchestration (Kubernetes/Docker)
+- RESTful services · Microservices communication patterns
+- Distributed environment · Troubleshoot complex issues
+- CNCF landscape
 
 ### Cloud SaaS / Mission-Critical Infrastructure
 Keywords to prioritize if supported:
