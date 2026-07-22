@@ -161,6 +161,16 @@ Keywords to prioritize if supported:
 - Unit and integration testing · Code reviews · Clean code practices
 - *Note:* Do not hallucinate proprietary technologies like Spark or JavaJSP if the candidate lacks them. Frame SAP Cloud ALM auditing and RBAC experience to bridge the "compliance" gap.
 
+### Big Tech / AI-Driven Cloud Engineering (e.g., Microsoft)
+Keywords to prioritize if supported:
+- Cloud-based data, analytics, automation, and tooling solutions
+- End-to-end ownership (design, implementation, operations)
+- Agentic plugins, agents, skills, hooks (massive differentiator for candidates with LangChain/n8n experience)
+- Robust monitoring, logging, and alerting · Telemetry and usage analytics (map to Kibana/Grafana)
+- Cross-functional collaboration · Customer obsession · Agile iterative development
+- *Note:* When multiple programming languages (Python, C#, Java, JavaScript, C++) are listed, ensure the candidate's actual languages (Java, Python, C++, JavaScript) are prominently displayed in both Summary and Skills.
+- Highlight AI certifications (SAP Generative AI, RAG) at the top of the Certifications list.
+
 ### Systems / Infrastructure / Hardware-Adjacent (e.g., Networking companies)
 Keywords to prioritize if supported:
 - Codes and programs enhancements, updates, and changes (mirror JD verb exactly)
