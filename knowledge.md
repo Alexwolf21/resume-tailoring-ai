@@ -67,6 +67,19 @@ Keywords to prioritize if supported:
 - Change and incident management standards · Monitoring systems capacity
 - Distributed programming (use this exact phrase when JD specifies it)
 
+### FinTech / Banking (Java-Heavy, e.g., Barclays, JPMC)
+Keywords to prioritize if supported:
+- Scalable, maintainable, and optimized for performance (exact JD phrase)
+- Secure coding practices · Mitigate vulnerabilities · Protect sensitive data
+- Culture of code quality and knowledge sharing
+- Effective unit testing practices (JUnit/Mockito — use exact framework names)
+- Spring MVC / Spring Boot / Spring Security (name all three if on JD)
+- RESTful services (use "services" not "APIs" when JD says "services")
+- Kibana → label as "Kibana (Elastic)" to match JD phrasing
+- AWS Lambda is truthful; surface it explicitly for AWS-heavy banking JDs
+- React/JavaScript: truthful at project level — list in both skills and project tech stack
+- Genuine gaps for banking JDs: Terraform/CloudFormation, K8s/Docker/OpenShift, Oracle/SQL Server, WireMock/Karate/Pi Test — never claim
+
 ### Systems / Infrastructure / Hardware-Adjacent (e.g., Networking companies)
 Keywords to prioritize if supported:
 - Codes and programs enhancements, updates, and changes (mirror JD verb exactly)
