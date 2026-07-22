@@ -60,6 +60,12 @@ Keywords to prioritize if supported:
 - Pub/sub model · Pub/sub messaging
 - Platform engineering · Cloud-native · Observability
 - Unit testing · Code review · Design documentation
+- Robust and scalable software components (exact phrase for product engineering JDs)
+- High-performance, scalable, repeatable, and secure deliverables (Target-style JDs)
+- Code review and design review · Automate test scripts · Regression testing
+- Proof-of-concept initiatives · Evaluation of new technologies
+- Change and incident management standards · Monitoring systems capacity
+- Distributed programming (use this exact phrase when JD specifies it)
 
 ### Systems / Infrastructure / Hardware-Adjacent (e.g., Networking companies)
 Keywords to prioritize if supported:
