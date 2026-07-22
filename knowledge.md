@@ -61,6 +61,17 @@ Keywords to prioritize if supported:
 - Platform engineering · Cloud-native · Observability
 - Unit testing · Code review · Design documentation
 
+### Systems / Infrastructure / Hardware-Adjacent (e.g., Networking companies)
+Keywords to prioritize if supported:
+- Codes and programs enhancements, updates, and changes (mirror JD verb exactly)
+- Executes test plans and protocols · Identifies, logs, and debugs issues
+- Software systems design · Multi-platform understanding · Networking
+- Cross-functional project team · Internal and outsourced development partners
+- Reliable, cost-effective, high-quality solutions (JD exact phrase)
+- Analytical and problem-solving skills (surface explicitly in summary)
+- Education Variant A recommended (M.Tech helps for CS-fundamentals-heavy roles)
+- Genuine gap: C/C++, Linux Device Drivers — never claim; acknowledge in gap list
+
 ### Fintech / High-Scale Integration
 Keywords to prioritize if supported:
 - Messaging patterns · High-volume / large-scale / testable systems
