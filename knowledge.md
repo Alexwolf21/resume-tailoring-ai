@@ -5,6 +5,17 @@
 
 ---
 
+# Global Constraints & Quality Standards
+
+## Quality Assurance & Grammar
+- **Impeccable English:** All generated resume content, summaries, and cover letters must have flawless grammar, punctuation, and spelling.
+- **Tone:** Professional, clear, and impactful. Ensure natural flow and avoid robotic or overly repetitive phrasing.
+
+## Feature Retention (Critical)
+- **NEVER remove the Kafka feature bullet** from the SAP Experience section, especially for Backend Developer or Spring Boot roles. Even if the JD does not explicitly mention messaging queues, the distributed event monitoring system using Kafka is a core pillar of the candidate's base resume and demonstrates strong ownership and distributed systems expertise.
+
+---
+
 # Writing Principles
 
 ## Action Verbs
@@ -52,6 +63,15 @@ Example: *Developed REST APIs using Spring Boot to automate deployment workflows
 
 # ATS Optimization
 
+## AI as a Differentiator
+
+When a JD explicitly mentions AI adoption, growth mindset around AI, or emerging tools:
+- Lead the AI skill row and dedicate a full bullet in experience to AI/emerging tech integration
+- Use: "growth mindset around AI and emerging tooling" (mirror JD language exactly)
+- Certifications (SAP Generative AI Developer, RAG and Agentic Systems) become strong signals — surface them
+- Frame the Agentic AI PoC (LangChain + n8n) as a proof of initiative, not just a task
+- The candidate's AI stack (LLMs, RAG, LangChain, GitHub Copilot, Claude Code) is a genuine differentiator for roles where most Java/backend candidates have no AI experience
+
 ## Keyword Strategy by Role Type
 
 ### Backend / Distributed Systems / Platform Engineering
@@ -67,6 +87,58 @@ Keywords to prioritize if supported:
 - Change and incident management standards · Monitoring systems capacity
 - Distributed programming (use this exact phrase when JD specifies it)
 
+### Application Development & Maintenance / Support (Full Stack)
+Keywords to prioritize if supported:
+- Troubleshooting development and production problems (exact JD phrase)
+- Identifying bottlenecks and bugs · Analyzing user requirements
+- Efficient, reusable, and reliable Java codes (use "codes" if JD uses it)
+- Full stack development · React JS (Frontend integration)
+- Database schemas · External and embedded databases
+- Object-oriented programming · Design patterns · Architecture requirements
+- Automated testing platforms and unit tests
+
+### Campus Hiring / Graduate / Early Career
+Keywords to prioritize if supported:
+- Passion for technology, continuous learning, and problem-solving (match JD phrases exactly)
+- Strong foundation in data structures, algorithms, and system design
+- Academic timeline alignment: If the JD specifies a target graduation year (e.g., "2026 graduates"), structure the Education section to surface the degree aligning with that year (e.g., ongoing M.Tech).
+- Highlight certifications (e.g., SAP Generative AI Developer) as strong differentiators.
+- Emphasize academic project complexity (e.g., Saga orchestration, distributed transactions)
+
+### AI-First Organization / AI-Steered Development (e.g., Clinisys)
+Keywords to prioritize if supported:
+- AI-steered development · AI as a default accelerator
+- GitHub Copilot · Claude Code · Prompt hygiene · AI literacy
+- Drafting code, refactoring, and generating unit tests (match exact phrases)
+- Quality-managed SDLC · Requirements traceability · Root-cause analysis
+- Translating functional requirements · Robustness across configurations
+- Accountability for correctness, security, and privacy
+- *Note:* Do not hallucinate domain-specific experience (e.g., Healthcare, LIS, specific proprietary languages like Progress 4GL) if the candidate lacks it. Rely heavily on the AI tooling and SDLC adherence.
+
+### Cybersecurity / Cloud Security SaaS (e.g., Qualys, CrowdStrike)
+Keywords to prioritize if supported:
+- Distributed systems challenges · Cloud-native platforms (match JD phrases)
+- Reliability · Resiliency · Observability · SRE concepts (highly valued)
+- Messaging technologies (Kafka, RabbitMQ) · NoSQL (Redis) · SQL optimization
+- Troubleshooting distributed systems issues across services and infrastructure
+- Production support activities · Incident resolution time (MTTR)
+- AI-assisted development tools (Claude Code, GitHub Copilot, Cursor)
+- Agentic workflows · RAG pipelines (massive differentiators if requested)
+
+### Enterprise SaaS / Cloud Product (Mid-Senior SE, e.g., Infor, SAP, Salesforce)
+Keywords to prioritize if supported:
+- Scalable and secure applications (exact phrase)
+- Cloud-native SaaS or enterprise applications (frame SAP Cloud ALM explicitly)
+- Clean, efficient, and maintainable code following industry best practices
+- Code reviews, architecture discussions, technical roadmap planning
+- Continuous improvement around software performance, reliability, and scalability
+- Knowledge sharing and code collaboration
+- Evaluate and adopt emerging technologies (AI tools are a strong differentiator here)
+- Enterprise security (RBAC, secure coding) · Performance tuning
+- Cross-functional collaboration with Product Management, UX, QA (name all three if in JD)
+- Genuine gap: Docker/Kubernetes — never claim; mention as gap
+- Mentoring gap (< 3 yrs experience): frame as knowledge sharing / code reviews instead
+
 ### FinTech / Banking (Java-Heavy, e.g., Barclays, JPMC)
 Keywords to prioritize if supported:
 - Scalable, maintainable, and optimized for performance (exact JD phrase)
@@ -79,6 +151,15 @@ Keywords to prioritize if supported:
 - AWS Lambda is truthful; surface it explicitly for AWS-heavy banking JDs
 - React/JavaScript: truthful at project level — list in both skills and project tech stack
 - Genuine gaps for banking JDs: Terraform/CloudFormation, K8s/Docker/OpenShift, Oracle/SQL Server, WireMock/Karate/Pi Test — never claim
+
+### FinTech / Compliance Surveillance (Backend, e.g., ActOne)
+Keywords to prioritize if supported:
+- Java 8 and Java 17 · Spring Boot · modular microservices
+- SQL databases · Query optimization · Indexing strategies · Data modeling
+- Root-cause analysis · Troubleshooting production issues
+- Secure communication and configuration patterns · Secure coding standards
+- Unit and integration testing · Code reviews · Clean code practices
+- *Note:* Do not hallucinate proprietary technologies like Spark or JavaJSP if the candidate lacks them. Frame SAP Cloud ALM auditing and RBAC experience to bridge the "compliance" gap.
 
 ### Systems / Infrastructure / Hardware-Adjacent (e.g., Networking companies)
 Keywords to prioritize if supported:
