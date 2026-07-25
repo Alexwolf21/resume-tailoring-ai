@@ -227,6 +227,8 @@ Keywords to prioritize if supported:
 - Observability, logging, and operational readiness
 - AI-Augmented Development (GitHub Copilot, Claude Code) — elevate to dedicated skills row if JD emphasizes developer productivity tools
 - When Node.js/TypeScript is a genuine gap: maximize adjacent matches, flag clearly
+- **FinTech Full-Stack variant:** When the JD is for a Full Stack role at a financial services firm, frame the summary as "Full Stack Developer" and surface "frontend and backend layers" (exact JD phrase). Lead the Skills row with "Languages & Frontend" combining Java, JavaScript, HTML, CSS, React. Use inline SQL/NoSQL labeling: `PostgreSQL (SQL)`, `Redis (NoSQL)`. Mirror JD verbs exactly in experience bullets (e.g., "debug, troubleshoot, and optimize applications for performance, usability, and reliability"). Deprioritise AI certifications when JD does not mention AI. Use Education Variant A for 1–3 year roles.
+
 
 ### Cloud-Native Architect / Java Microservices
 Keywords to prioritize if supported:
