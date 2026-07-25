@@ -182,12 +182,14 @@ Keywords to prioritize if supported:
 - Education Variant A recommended (M.Tech helps for CS-fundamentals-heavy roles)
 - Genuine gap: C/C++, Linux Device Drivers — never claim; acknowledge in gap list
 
-### Fintech / High-Scale Integration
+### Fintech / High-Scale Payments Infrastructure
 Keywords to prioritize if supported:
 - Messaging patterns · High-volume / large-scale / testable systems
-- API design · Client-server contracts · Data aggregation · Data pipeline
+- API design · API integrations · Client-server contracts · Data aggregation
 - Relational database schema design · Deployment strategies
 - Agile/Scrum · Integration (internal services / external partners)
+- **Payments-specific variant:** When the JD is for a payments company processing at high scale (e.g., 300M+ daily transactions), lead the summary with "mission-critical, high-scale backend systems" and surface the candidate's 370M requests/day for immediate scale parity. Reframe EBaazee as a "payment processing platform" with "payment orchestration" and "fund locking/unlocking." Use "Monitoring & Observability" as a dedicated skills row to match infrastructure reliability expectations (99.999% uptime). Mirror JD phrases like "reliability & performance problems at large scale" and "first-principles thinking."
+- *Note:* Functional programming (Haskell, PureScript, Erlang) is a genuine gap — never claim. Acknowledge if needed but maximise adjacent strengths (distributed systems, event-driven architecture, API integrations).
 
 ### Telecom / Billing / Real-Time Infrastructure
 Keywords to prioritize if supported:
