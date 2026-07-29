@@ -108,6 +108,20 @@ Keywords to prioritize if supported:
 - **"Learning Mindset" / "Adaptability":** When the JD values willingness to learn and work under guidance, mirror these phrases directly in the Summary (e.g., "strong learning mindset who adapts quickly to new technologies"). Frame the candidate's progression from B.Tech to M.Tech as evidence of continuous learning.
 - **Foundational Skills framing:** When the JD uses "foundational programming skills" or "software engineering fundamentals," use these exact phrases in the Summary and project descriptions rather than advanced terminology.
 
+### Consumer Tech / Product-First SDE I (e.g., Swiggy, Zomato, Flipkart)
+Keywords to prioritize if supported:
+- End-to-end design/architecture · Mission-critical applications · Product development company
+- CS fundamentals · Algorithms and data structures (space and time complexities)
+- Data modeling · Low-level class design · OOP · Design patterns
+- Maintainable, scalable, and efficient code · Industry coding standards
+- Code reviews · Design reviews · Architecture discussions (use all three exact phrases when JD lists them)
+- Experiment with new and relevant technologies · Technology vision · Best practices adoption
+- Agile/SDLC · Cross-functional teams · On-time deliveries
+- **"Reputed college" signal:** When JD explicitly says "B Tech/M Tech from reputed college," always use Education Variant A to surface BITS Pilani M.Tech. This is a strong differentiator for consumer-tech companies that heavily filter on college brand.
+- **Design ownership framing:** These JDs expect SDE I candidates to *own* architecture, not just implement it. Lead summary with "owning end-to-end design and architecture" (exact JD phrase). Frame experience bullets around *designing* not just *developing*.
+- **Skills row:** Use "Backend & Architecture" label. Add "Design Patterns," "Data Modeling," and "Low-Level Design" to the Software Engineering row.
+- Genuine gap: Golang, Linux/Unix administration — never claim. Acknowledge adjacent strengths (Cloud Foundry deployments for Linux exposure).
+
 
 ### AI-First Organization / AI-Steered Development (e.g., Clinisys)
 Keywords to prioritize if supported:
@@ -167,6 +181,31 @@ Keywords to prioritize if supported:
 - React/JavaScript: truthful at project level — list in both skills and project tech stack
 - Genuine gaps for banking JDs: Terraform/CloudFormation, K8s/Docker/OpenShift, Oracle/SQL Server, WireMock/Karate/Pi Test — never claim
 
+### Financial Services / Wealth Management (Java-Heavy, e.g., Charles Schwab)
+Keywords to prioritize if supported:
+- Secure Java based systems · Critical business functions
+- Efficient, and testable code · Established architectural standards
+- Continuous improvement with AI tools (use this exact phrase to frame AI experience)
+- Compliance, security, and scalability · Security policy violations
+- Predictive and adaptive methods · Secure, stable releases
+- Cloud architectures · Modern design methodologies
+- **Security & Compliance framing:** These JDs heavily value risk mitigation and compliance over pure feature development. Highlight RBAC, security policy compliance, and stable releases prominently in both Summary and Experience sections.
+- **Skills row:** Rename to "Backend & Security" and explicitly list "Security Policy Compliance" and "Role-Based Access Control".
+- **AI framing:** Frame AI tools (Claude, Copilot, LangChain) specifically as "continuous improvement with AI tools" to align with their specific perspective on AI.
+- Use Education Variant B unless early career/graduate is explicitly mentioned, as financial services JDs prioritize professional experience.
+
+### Financial Services / Asset Management (Legacy & AWS Integration, e.g., Vanguard)
+Keywords to prioritize if supported:
+- System analysis, design, development, and implementation (exact JD phrase)
+- Application development, system analysis, and database management (exact JD phrase)
+- Debugging in AWS and legacy using modern tools
+- API development, integration, and data flow management
+- Performance monitoring, refining dashboards, SLOs, and resolving known issues by following defined playbooks
+- Secure and reliable back-end components · Data protection best practices
+- **Integration Framing:** Frame the experience heavily around data flow management, API integration, and debugging across both cloud (AWS) and legacy/enterprise systems.
+- **Operations & Support:** Explicitly mention SLOs, dashboards, and playbooks. Map Kibana/Grafana experience directly to "refining dashboards".
+- Use Education Variant B (B.Tech only) for mid-level (2+ years) support/development roles that don't emphasize premier institutes.
+
 ### FinTech / Compliance Surveillance (Backend, e.g., ActOne)
 Keywords to prioritize if supported:
 - Java 8 and Java 17 · Spring Boot · modular microservices
@@ -186,6 +225,18 @@ Keywords to prioritize if supported:
 - *Note:* When multiple programming languages (Python, C#, Java, JavaScript, C++) are listed, ensure the candidate's actual languages (Java, Python, C++, JavaScript) are prominently displayed in both Summary and Skills.
 - Highlight AI certifications (SAP Generative AI, RAG) at the top of the Certifications list.
 
+### Big Tech / Advertising Platforms (e.g., Apple Ads)
+Keywords to prioritize if supported:
+- Design, implementation, and operation (exact phrasing)
+- Distributed and scalable services · High-throughput and low-latency
+- Quality and correctness (exact JD phrase)
+- Tools and metrics (use to frame monitoring experience with Kibana/Grafana)
+- Software development life cycle · Geo-locations · Cross-functional teams
+- Foundational knowledge of frontend and backend technologies (ReactJS is a strong asset here)
+- **AI framing:** Use "AI for development" and "AI-based tools" explicitly. Frame the LangChain/n8n PoC as an "AI-based tool" rather than just a workflow.
+- **Scale:** Emphasize the 370 million requests/day metric as proof of high-throughput distributed systems experience.
+- Use Education Variant A (M.Tech) as Big Tech heavily values premier institute signals for early-career roles (2-6 years).
+
 ### Systems / Infrastructure / Hardware-Adjacent (e.g., Networking companies)
 Keywords to prioritize if supported:
 - Codes and programs enhancements, updates, and changes (mirror JD verb exactly)
@@ -196,6 +247,18 @@ Keywords to prioritize if supported:
 - Analytical and problem-solving skills (surface explicitly in summary)
 - Education Variant A recommended (M.Tech helps for CS-fundamentals-heavy roles)
 - Genuine gap: C/C++, Linux Device Drivers — never claim; acknowledge in gap list
+
+### Industrial Tech / Aerospace & Building Technologies (e.g., Honeywell)
+Keywords to prioritize if supported:
+- Design, development, and implementation of complex software applications (exact JD phrase)
+- Software development methodologies and best practices
+- Gather requirements, define project scope, and ensure successful delivery
+- Unit testing and debugging · Technical support and troubleshooting
+- High-quality software solutions · Robust and scalable applications
+- Drive innovation and continuous improvement · Emerging technologies
+- **Skill Formatting:** These roles often require generalized "Applications Dev Specialists" rather than specific framework experts. Explicitly list "Application Design", "Complex Software Applications", and "Software Development Methodologies" in the Skills section.
+- **Values Match:** Map "continuous learning and staying updated with emerging technologies" directly to ongoing education (M.Tech) and AI tools.
+- Use Education Variant A (B.Tech + M.Tech) to explicitly demonstrate "continuous learning".
 
 ### Fintech / High-Scale Payments Infrastructure
 Keywords to prioritize if supported:
