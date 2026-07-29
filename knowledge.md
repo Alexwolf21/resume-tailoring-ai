@@ -249,6 +249,15 @@ Keywords to prioritize if supported:
 - **Education:** If the JD asks for a Bachelor's degree and "minimum 0 years" (entry-level), use Education Variant B but explicitly phrase it as "Bachelor's degree in [Major] (Related Field)" to precisely match "Bachelor's degree in Computer Science or a related field".
 - **Programming Languages:** Explicitly list all languages the candidate knows that match the JD's OR condition (e.g., JD says Java, C#, or Python; explicitly list Java and Python).
 - **Skills Labeling:** Map "Strong attention to detail and quality assurance" directly into the Software Engineering skills row as "Quality Assurance" and "Unit Testing and Debugging".
+### Salesforce Consultancy / Entry-Level (e.g., Magna Technology Group)
+Keywords to prioritize if supported:
+- Salesforce Trailhead Ranger · Salesforce Lightning · Agentforce · Apex · LWC (Lightning Web Components)
+- Object-Oriented Programming (OOP) · Databases/SQL · Web Technologies (JavaScript, HTML, CSS)
+- Execute basic, well-scoped development tasks · Core coding principles
+- Shadowing & Mentorship · Team Collaboration · Clear Communication
+- Quality Assurance, Debugging & Documentation
+- **Salesforce framing:** Explicitly state the Trailhead Ranger rating and hands-on Salesforce Lightning experience in the Summary. Create a dedicated "Salesforce & CRM" skills row to ensure ATS visibility for declarative (Flows, Validation Rules) and programmatic (Apex, LWC) Salesforce skills.
+- **Education:** For roles requiring Computer Science or equivalent, use Education Variant A (M.Tech Software Engineering) if it strengthens the profile for entry-level positions where core programming principles (OOP, SQL) are tested.
 ### Systems / Infrastructure / Hardware-Adjacent (e.g., Networking companies)
 Keywords to prioritize if supported:
 - Codes and programs enhancements, updates, and changes (mirror JD verb exactly)
