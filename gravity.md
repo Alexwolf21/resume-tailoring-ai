@@ -284,12 +284,11 @@ Options:
 
 1. aurolenka2001@gmail.com
 2. auroshreelenka@gmail.com
+3. auroshreelenka635@gmail.com
 
 Wait for the user's response before proceeding.
 
 Do not begin tailoring until the required selections have been confirmed.
-
-Future user-selectable options may also be requested at this stage.
 
 ---
 
