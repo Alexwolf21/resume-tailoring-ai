@@ -97,13 +97,17 @@ Keywords to prioritize if supported:
 - Object-oriented programming · Design patterns · Architecture requirements
 - Automated testing platforms and unit tests
 
-### Campus Hiring / Graduate / Early Career
+### Campus Hiring / Graduate / Early Career / Associate Engineer
 Keywords to prioritize if supported:
 - Passion for technology, continuous learning, and problem-solving (match JD phrases exactly)
 - Strong foundation in data structures, algorithms, and system design
 - Academic timeline alignment: If the JD specifies a target graduation year (e.g., "2026 graduates"), structure the Education section to surface the degree aligning with that year (e.g., ongoing M.Tech).
 - Highlight certifications (e.g., SAP Generative AI Developer) as strong differentiators.
 - Emphasize academic project complexity (e.g., Saga orchestration, distributed transactions)
+- **AI Tools as Must-Have:** When a JD explicitly lists "AI tools utilization for development" as a must-have skill, promote the AI row in Skills (Claude Code, GitHub Copilot, LLMs, RAG, LangChain), surface the AI Generative cert first in Certifications, include RAG/Agentic cert, and dedicate a full experience bullet to AI tool usage. This is a massive differentiator for early-career roles where most candidates have zero AI tooling experience.
+- **"Learning Mindset" / "Adaptability":** When the JD values willingness to learn and work under guidance, mirror these phrases directly in the Summary (e.g., "strong learning mindset who adapts quickly to new technologies"). Frame the candidate's progression from B.Tech to M.Tech as evidence of continuous learning.
+- **Foundational Skills framing:** When the JD uses "foundational programming skills" or "software engineering fundamentals," use these exact phrases in the Summary and project descriptions rather than advanced terminology.
+
 
 ### AI-First Organization / AI-Steered Development (e.g., Clinisys)
 Keywords to prioritize if supported:
@@ -138,6 +142,17 @@ Keywords to prioritize if supported:
 - Cross-functional collaboration with Product Management, UX, QA (name all three if in JD)
 - Genuine gap: Docker/Kubernetes — never claim; mention as gap
 - Mentoring gap (< 3 yrs experience): frame as knowledge sharing / code reviews instead
+
+### SAP Ecosystem / BTP Java Developer
+Keywords to prioritize if supported:
+- Core Java · Spring Boot · JavaScript · Enterprise applications · End-to-end business functionality
+- SAP BTP · Cloud Foundry · SAP Fiori · SAP HANA · SAP Datasphere
+- Automation scripts and test cases · JUnit/TestNG · Debugging cloud-based applications
+- Collections · Multithreading · OOP (surface these as a dedicated "Core Java" skills row)
+- **SAP Certifications are massive differentiators:** Surface SAP Fiori Application Developer, SAP Business Data Cloud, SAP Generative AI Developer, and SAP Business Transformation Consultant certifications prominently. Create a dedicated "SAP Technologies" skills row listing BTP, Cloud Foundry, and all certified technologies.
+- *Note:* SAP CAP, SAP HANA, and SAP Datasphere are genuine gaps — never claim. Docker/Kubernetes remain gaps.
+- Education Variant B recommended (experienced Java Dev role).
+
 
 ### FinTech / Banking (Java-Heavy, e.g., Barclays, JPMC)
 Keywords to prioritize if supported:
