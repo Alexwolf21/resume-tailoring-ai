@@ -2,7 +2,7 @@
 
 An AI-powered resume tailoring workspace designed for Google Antigravity (or any autonomous AI IDE).
 
-The goal is to generate truthful, ATS-optimized, recruiter-friendly resumes for each job application while continuously improving over time.
+The objective is to generate truthful, ATS-optimized, recruiter-friendly resumes while preserving the candidate's unique technical experience and continuously improving the repository over time.
 
 ---
 
@@ -26,38 +26,47 @@ resume-tailoring-ai/
 
 ## gravity.md
 
-Defines the behavior of the Resume Tailoring Agent.
+Defines the complete behavior of the Resume Tailoring Agent.
 
 Contains:
 
 - Workflow
 - Decision Framework
-- Resume integrity rules
+- Resume Integrity Rules
+- Repository Rules
 - Execution & Deliverables
+- Communication Mode
 
-Normally this file should remain unchanged.
+This is the governing specification for every tailoring session.
+
+Normally this file should only be modified when improving the agent itself.
 
 ---
 
 ## knowledge.md
 
-Stores reusable resume optimization knowledge.
+A persistent repository of reusable resume optimization knowledge.
 
 Examples:
 
-- Better wording
-- ATS optimization
-- Technical terminology
+- ATS optimization strategies
+- Better action verbs
+- Better technical wording
 - Resume organization
-- Strong action verbs
+- Industry terminology
+- Lessons learned from previous tailoring sessions
 
-Never stores company-specific information.
+Never store:
+
+- Company names
+- Job descriptions
+- Temporary tailoring decisions
 
 ---
 
 ## candidate_profile.md
 
-Contains the candidate's complete factual professional profile.
+Contains the complete factual profile of the candidate.
 
 This is **not** a resume.
 
@@ -65,14 +74,16 @@ It may include:
 
 - Technologies
 - Responsibilities
-- Projects
+- Products
+- Platforms
 - Architecture exposure
 - Certifications
+- Projects
 - Awards
 - Resume preferences
-- Experience not included in the one-page resume
+- Experience omitted from the one-page resume
 
-This allows the AI to enrich the resume truthfully when relevant.
+The AI may use this file to enrich the resume only with truthful and relevant information.
 
 ---
 
@@ -80,9 +91,9 @@ This allows the AI to enrich the resume truthfully when relevant.
 
 The master resume.
 
-This is the source of truth for all resume tailoring.
+This is the single source of truth for all tailoring.
 
-Never modify unless intentionally updating the master resume.
+Never modify unless intentionally improving the master resume.
 
 ---
 
@@ -96,9 +107,9 @@ Paste the complete Job Description here.
 
 ## tailored_resume.tex
 
-Generated output.
+Generated tailored resume.
 
-This file is overwritten every tailoring session.
+This file is overwritten during every tailoring session.
 
 ---
 
@@ -106,21 +117,13 @@ This file is overwritten every tailoring session.
 
 For every application:
 
-1. Paste the Job Description into `job_description.md`.
-
+1. Replace `job_description.md` with the target Job Description.
 2. Open the repository in Antigravity.
-
-3. Ask Antigravity to execute the tailoring workflow.
-
-4. Review:
-   - ATS alignment
-   - Resume changes
-   - Remaining gaps
-   - Updated knowledge
-
-5. Compile and review `tailored_resume.tex`.
-
-6. Submit the resume.
+3. Execute the workflow defined in `gravity.md`.
+4. If prompted, answer any Candidate Confirmation questions (for example, email selection).
+5. Review the generated `tailored_resume.tex`.
+6. Compile the LaTeX.
+7. Submit the resume.
 
 ---
 
@@ -128,56 +131,111 @@ For every application:
 
 The repository already contains all required instructions.
 
-Use a short prompt such as:
+Use this prompt:
 
-> Read `gravity.md` and execute the complete resume tailoring workflow for the current `job_description.md`. Follow every instruction in `gravity.md`, update `tailored_resume.tex` and `knowledge.md`, and present the required execution report. Use `candidate_profile.md` to enrich the resume only with truthful information that is relevant to the target role.
+> Execute the workflow defined in `gravity.md` for the current `job_description.md`.
+>
+> Treat `gravity.md` as the governing specification and source of truth for behavior.
+>
+> Follow every workflow step, update only the repository files specified in `gravity.md`, request any required user confirmations before tailoring, and return only the Console Summary after completion.
 
----
-
-## Alternative Prompt (More Explicit)
-
-If you want to be slightly more explicit:
-
-> You are working inside an AI Resume Tailoring repository. Read `gravity.md` first and follow it as the governing specification. Read the repository files in the prescribed order, analyze the current `job_description.md`, generate the strongest truthful tailored resume, update `tailored_resume.tex`, update `knowledge.md` with reusable insights, and present the execution report. Do not modify `base_resume.tex` unless I explicitly request it.
+No additional prompt engineering should normally be required.
 
 ---
 
-# Candidate-Specific Rules
+# Tailoring Principles
 
-The candidate prefers the following tailoring strategy:
+The Resume Tailoring Agent follows these principles:
 
-- For early-career roles (SDE 1, Graduate, Associate, Software Engineer I, 0–2 YOE), include both:
-  - M.Tech (BITS Pilani)
-  - B.Tech (with CGPA)
+- Maintain 100% factual accuracy.
+- Never fabricate experience, projects, technologies, or metrics.
+- Preserve the candidate's unique technical identity.
+- Preserve high-value technical context (products, platforms, architecture, technologies).
+- Improve ATS compatibility naturally.
+- Avoid keyword stuffing.
+- Distribute keywords across sections instead of repeating them.
+- Prefer concrete technical evidence over generic Job Description wording.
+- Improve readability without removing valuable technical information.
 
-- For experienced roles (typically 2–3+ YOE), include only:
-  - B.Tech (with CGPA)
+The objective is not to maximize keyword frequency.
 
-- Present the SAP role as **Software Developer** (or **Software Engineer**) rather than emphasizing the internal "Scholar" designation, unless specifically requested.
+The objective is to maximize interview probability while preserving credibility.
+
+---
+
+# Candidate Confirmation
+
+Before tailoring, the AI may request confirmation for user-selectable options.
+
+Examples:
+
+- Email address
+- Resume preferences
+- Other configurable options added in the future
+
+If the required information has already been provided in the current conversation, the AI should continue without asking again.
+
+---
+
+# Console Output
+
+The primary deliverables are the repository files.
+
+After completing the workflow, the AI should return only a concise Console Summary.
+
+Example:
+
+```
+Resume Tailoring Completed
+
+Before
+ATS: 74/100
+Recruiter: 76/100
+Hiring Manager: 72/100
+
+After
+ATS: 91/100
+Recruiter: 92/100
+Hiring Manager: 90/100
+
+Recommendation: Strong Match
+
+Updated
+✓ tailored_resume.tex
+✓ knowledge.md
+
+Remaining Gaps
+• Kubernetes
+• Terraform
+```
+
+Detailed analysis should only be produced when explicitly requested.
 
 ---
 
 # Review Checklist
 
-Before submitting any resume, verify:
+Before submitting a resume, verify:
 
 - No fabricated experience.
 - No unsupported technologies.
 - No exaggerated metrics.
-- Resume remains within the intended page limit.
-- LaTeX compiles successfully.
-- The most relevant experience is emphasized.
+- Product names and platforms are preserved.
+- Technical evidence has not been replaced by generic wording.
 - Keywords are naturally incorporated.
-- Remaining gaps are genuine and clearly identified.
+- Duplicate wording has been removed.
+- Resume fits within the intended page limit.
+- LaTeX compiles successfully.
+- Remaining gaps are genuine.
 
 ---
 
 # Long-Term Maintenance
 
-After multiple tailoring sessions:
+Continue improving:
 
-- Continuously improve `knowledge.md`.
-- Expand `candidate_profile.md` as new experience is gained.
-- Update `base_resume.tex` only when permanent improvements are identified.
+- `knowledge.md` with reusable optimization knowledge.
+- `candidate_profile.md` with new experience, technologies, certifications, and achievements.
+- `base_resume.tex` only when permanent improvements are identified.
 
-The objective is to keep the master resume, candidate profile, and knowledge base evolving while each tailored resume remains specific to its target role.
+The objective is to evolve the repository over time while ensuring every tailored resume remains truthful, technically rich, and highly relevant to its target role.

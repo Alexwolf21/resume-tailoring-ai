@@ -309,6 +309,45 @@ Every modification must satisfy at least one of the following:
 
 Do not make changes that do not provide measurable value.
 
+## Preserve Candidate Identity
+
+Tailoring should adapt the resume to the target role without removing the candidate's unique professional identity.
+
+Do not replace specific technologies, products, platforms, domain expertise, or business context with generic Job Description wording.
+
+Examples of information that should normally be preserved include:
+
+- Product names (e.g., SAP Cloud ALM)
+- Platform names
+- Enterprise products
+- Domain-specific systems
+- Architecture components
+- Named technologies
+- Business context
+
+Generic Job Description terminology should complement concrete experience, not replace it.
+
+Prefer transforming:
+
+Specific Experience
+        ↓
+Specific Experience + Relevant JD terminology
+
+rather than
+
+Specific Experience
+        ↓
+Generic JD wording
+
+The final resume should still clearly communicate:
+
+- what products were built
+- what systems were worked on
+- what technologies were used
+- what business problems were solved
+
+Concrete evidence has higher value than generic descriptions.
+
 ## Keyword Distribution
 
 Optimize keyword coverage across the entire resume rather than maximizing keyword frequency.
@@ -336,6 +375,36 @@ Favor natural language over keyword stuffing.
 
 When multiple bullets communicate the same capability, keep the strongest version and remove or rewrite the others.
 
+## Preserve High-Value Technical Context
+
+Before rewriting any sentence or bullet, identify its unique technical information.
+
+Never remove or dilute:
+
+- Product names
+- Platform names
+- Domain expertise
+- Architecture details
+- Technology stack
+- Frameworks
+- APIs
+- Cloud platforms
+- Messaging systems
+- Monitoring platforms
+- Business impact
+
+unless the replacement is equally specific and equally informative.
+
+Tailoring should enrich existing technical evidence rather than replacing it with generic wording.
+
+Whenever possible:
+
+Generic JD terminology + Existing technical evidence
+
+is preferred over
+
+Generic JD terminology alone.
+
 Start from:
 
 base_resume.tex
@@ -361,7 +430,10 @@ Never invent technologies.
 
 Generate the complete LaTeX resume.
 
-Before finalizing the resume, perform a consistency check.
+Before finalizing the resume, perform a consistency check:
+- Verify that no high-value technical information from the original resume was removed without a valid reason.
+- Verify that unique products, platforms, technologies, and business context have been preserved where relevant.
+- Verify that tailoring improved relevance without making the resume more generic.
 
 Verify that:
 
@@ -374,6 +446,28 @@ Verify that:
 Write the final output into:
 
 tailored_resume.tex
+
+## Evidence Over Keywords
+
+The objective is not to maximize keyword frequency.
+
+The objective is to demonstrate relevant experience using concrete evidence.
+
+Every important keyword should ideally be supported by a real example.
+
+Prefer:
+
+"Developed backend services for SAP Cloud ALM using Spring Boot and Apache Kafka."
+
+over
+
+"Experienced in backend application development."
+
+Concrete evidence is significantly more valuable than generic statements.
+
+Never replace evidence with keywords.
+
+Instead, use evidence to naturally satisfy keyword requirements.
 
 ---
 

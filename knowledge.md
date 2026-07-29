@@ -237,6 +237,17 @@ Keywords to prioritize if supported:
 - **Scale:** Emphasize the 370 million requests/day metric as proof of high-throughput distributed systems experience.
 - Use Education Variant A (M.Tech) as Big Tech heavily values premier institute signals for early-career roles (2-6 years).
 
+### Industrial Tech / Complex Software Applications (e.g., Honeywell)
+Keywords to prioritize if supported:
+- Design, development, and implementation of complex software applications
+- Gather requirements, define project scope, and ensure successful delivery
+- Software development methodologies and best practices
+- Unit testing and debugging · Technical support and troubleshooting
+- Integrate software applications with existing systems
+- Driving innovation and continuous improvement
+- **AI framing:** Frame AI tools directly as "emerging technologies" and proof of "continuous learning" and "driving innovation".
+- **Education:** If the JD asks for a Bachelor's degree and "minimum 0 years" (entry-level), use Education Variant B but explicitly phrase it as "Bachelor's degree in [Major] (Related Field)" to precisely match "Bachelor's degree in Computer Science or a related field".
+- **Programming Languages:** Explicitly list all languages the candidate knows that match the JD's OR condition (e.g., JD says Java, C#, or Python; explicitly list Java and Python).
 ### Systems / Infrastructure / Hardware-Adjacent (e.g., Networking companies)
 Keywords to prioritize if supported:
 - Codes and programs enhancements, updates, and changes (mirror JD verb exactly)
@@ -247,18 +258,6 @@ Keywords to prioritize if supported:
 - Analytical and problem-solving skills (surface explicitly in summary)
 - Education Variant A recommended (M.Tech helps for CS-fundamentals-heavy roles)
 - Genuine gap: C/C++, Linux Device Drivers — never claim; acknowledge in gap list
-
-### Industrial Tech / Aerospace & Building Technologies (e.g., Honeywell)
-Keywords to prioritize if supported:
-- Design, development, and implementation of complex software applications (exact JD phrase)
-- Software development methodologies and best practices
-- Gather requirements, define project scope, and ensure successful delivery
-- Unit testing and debugging · Technical support and troubleshooting
-- High-quality software solutions · Robust and scalable applications
-- Drive innovation and continuous improvement · Emerging technologies
-- **Skill Formatting:** These roles often require generalized "Applications Dev Specialists" rather than specific framework experts. Explicitly list "Application Design", "Complex Software Applications", and "Software Development Methodologies" in the Skills section.
-- **Values Match:** Map "continuous learning and staying updated with emerging technologies" directly to ongoing education (M.Tech) and AI tools.
-- Use Education Variant A (B.Tech + M.Tech) to explicitly demonstrate "continuous learning".
 
 ### Fintech / High-Scale Payments Infrastructure
 Keywords to prioritize if supported:
