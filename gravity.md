@@ -272,7 +272,28 @@ Do not modify the resume.
 
 ---
 
-## Step 5 — Resume Tailoring
+## Step 5 — Candidate Confirmation
+
+Before modifying the resume, request confirmation for any user-selectable options.
+
+For this repository, ask:
+
+**Which email address should be used in the resume?**
+
+Options:
+
+1. aurolenka2001@gmail.com
+2. auroshreelenka@gmail.com
+
+Wait for the user's response before proceeding.
+
+Do not begin tailoring until the required selections have been confirmed.
+
+Future user-selectable options may also be requested at this stage.
+
+---
+
+## Step 6 — Resume Tailoring
 
 Now generate the strongest truthful resume.
 
@@ -288,6 +309,33 @@ Every modification must satisfy at least one of the following:
 - Better highlights existing experience.
 
 Do not make changes that do not provide measurable value.
+
+## Keyword Distribution
+
+Optimize keyword coverage across the entire resume rather than maximizing keyword frequency.
+
+Treat the resume as a single document.
+
+Avoid repeating the same keywords, phrases, or concepts unnecessarily across multiple sections.
+
+For example:
+
+- If a keyword is already well represented in Professional Experience, avoid repeating it in the Professional Summary unless it adds value.
+- Avoid listing the same technologies in Summary, Skills, and Experience using nearly identical wording.
+- Prefer complementary information across sections instead of duplication.
+
+Each section should have a distinct purpose:
+
+- Professional Summary → High-level value proposition.
+- Technical Skills → Concise inventory of technologies.
+- Professional Experience → Evidence demonstrating those skills.
+- Projects → Additional proof of technical capability.
+
+A keyword should appear only as many times as needed for clarity and ATS recognition.
+
+Favor natural language over keyword stuffing.
+
+When multiple bullets communicate the same capability, keep the strongest version and remove or rewrite the others.
 
 Start from:
 
@@ -330,7 +378,7 @@ tailored_resume.tex
 
 ---
 
-## Step 6 — Verify the Tailored Resume
+## Step 7 — Verify the Tailored Resume
 
 Review the tailored resume again.
 
@@ -348,7 +396,7 @@ Summarize:
 
 ---
 
-## Step 7 — Improve the Knowledge Base
+## Step 8 — Improve the Knowledge Base
 
 After completing the tailoring session, update knowledge.md.
 
