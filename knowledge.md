@@ -248,6 +248,7 @@ Keywords to prioritize if supported:
 - **AI framing:** Frame AI tools directly as "emerging technologies" and proof of "continuous learning" and "driving innovation".
 - **Education:** If the JD asks for a Bachelor's degree and "minimum 0 years" (entry-level), use Education Variant B but explicitly phrase it as "Bachelor's degree in [Major] (Related Field)" to precisely match "Bachelor's degree in Computer Science or a related field".
 - **Programming Languages:** Explicitly list all languages the candidate knows that match the JD's OR condition (e.g., JD says Java, C#, or Python; explicitly list Java and Python).
+- **Skills Labeling:** Map "Strong attention to detail and quality assurance" directly into the Software Engineering skills row as "Quality Assurance" and "Unit Testing and Debugging".
 ### Systems / Infrastructure / Hardware-Adjacent (e.g., Networking companies)
 Keywords to prioritize if supported:
 - Codes and programs enhancements, updates, and changes (mirror JD verb exactly)
