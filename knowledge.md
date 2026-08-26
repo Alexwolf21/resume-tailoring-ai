@@ -157,6 +157,24 @@ Keywords to prioritize if supported:
 - Genuine gap: Docker/Kubernetes — never claim; mention as gap
 - Mentoring gap (< 3 yrs experience): frame as knowledge sharing / code reviews instead
 
+### Enterprise Backend / AI-Enabled Engineering (Early-Career, e.g., Hospitality Tech GCCs)
+Keywords to prioritize if supported:
+- Develop and maintain backend services and REST APIs using Java (exact JD phrasing — mirror verbatim in Summary and bullet 1)
+- Scalable and reusable development patterns (exact phrase — surface in collaboration bullet)
+- AI-enabled engineering practices · Structured development patterns · Prompt-based workflows · Reusable knowledge-driven development (mirror exact phrases)
+- Code reviews and established engineering standards and best practices (exact phrase — dedicate a full bullet)
+- Continuous improvement around automation, reliability, and engineering efficiency (exact phrase)
+- Troubleshoot and resolve application issues · Support Testing (surface both in experience)
+- Spring Boot/Spring MVC · SQL · Relational databases · Microservices · AWS · CI/CD · Git · Agile (Scrum/Kanban)
+- Monitoring and logging tools (map Kibana/Grafana/Dynatrace as adjacent to Splunk; label "Logging" explicitly)
+- **AI framing:** When JD uses "AI-enabled engineering practices" and "prompt-based workflows," this is a MASSIVE differentiator. Dedicate a full bullet to AI-assisted development. Surface GitHub Copilot by name (direct ATS match). Frame LangChain/n8n PoC as "prompt-based workflows" (exact JD language). Create a dedicated "AI & Engineering Practices" skills row. Surface RAG/Agentic Systems cert and SAP Generative AI cert prominently.
+- **Collaboration framing:** When JD says "collaborate with Technical Leads, DevOps, and platform teams," mirror this exact structure in the collaboration bullet. The candidate works with Technical Leads, Architects, and DevOps at SAP — this is a direct match.
+- **Containerization gap:** JD mentions "understanding of containerization concepts" as preferred. Candidate does NOT have Docker/K8s. This is a genuine gap — do not claim. Cloud Foundry is the closest adjacency.
+- **Unix/Linux gap:** Genuine gap. Do not claim. Cloud Foundry CLI and AWS deployment are adjacent but not equivalent.
+- **Splunk gap:** Candidate has Kibana/Grafana/Dynatrace, not Splunk. List monitoring/logging tools truthfully. Label "Logging" explicitly in Skills row for partial ATS match.
+- **Education:** Use Variant A for early-career (1–5 year) roles. BITS Pilani M.Tech strengthens the profile.
+
+
 ### SAP Ecosystem / BTP Java Developer
 Keywords to prioritize if supported:
 - Core Java · Spring Boot · JavaScript · Enterprise applications · End-to-end business functionality
@@ -206,6 +224,22 @@ Keywords to prioritize if supported:
 - **Operations & Support:** Explicitly mention SLOs, dashboards, and playbooks. Map Kibana/Grafana experience directly to "refining dashboards".
 - Use Education Variant B (B.Tech only) for mid-level (2+ years) support/development roles that don't emphasize premier institutes.
 
+### Financial Market Infrastructure & Benchmark Platforms (e.g., LSEG / FTSE Russell)
+Keywords to prioritize if supported:
+- Clean, testable, and efficient Java (Java 11+/17) code · Collections, Concurrency, Streams, Design Patterns
+- Spring Boot, Spring Web/MVC, Spring Data/JPA · REST (JSON) · OpenAPI/Swagger
+- RDBMS (PostgreSQL) and NoSQL (Redis) — use inline "(SQL)" and "(NoSQL)" labeling for direct ATS match
+- AWS services: name specific services truthfully (CloudWatch, S3, RDS). List SQS/SNS only if truthful; map Kafka as adjacent messaging expertise.
+- CI/CD: Jenkins, Maven, Git workflows (feature branches, PRs) — match exact JD tooling
+- Testing: JUnit, Mockito — explicitly name in both Skills and Experience. Mention "test pyramid" and "code coverage" if JD uses these phrases.
+- Observability: Kibana (ELK), Grafana, Dynatrace → map to "logging, metrics, and tracing" (exact JD phrasing). Mention OpenTelemetry adjacency if applicable.
+- Security: Secure coding, IAM/RBAC, least-privilege — use exact JD terminology ("manage secrets", "least-privilege IAM").
+- **Skills Structure:** Use 5 rows: "Core Java & Languages" (lead with Java 11+, list collections/concurrency/streams/OOP/design patterns), "Frameworks & APIs", "AWS & DevOps", "Datastores", "Quality & Observability".
+- **Docker gap:** Docker fundamentals is a must-have in these JDs. Candidate does NOT have Docker experience — this is a genuine gap. Never claim it. Frame Cloud Foundry deployment experience as adjacent containerized deployment knowledge.
+- **Education:** Use Variant B for 2–5 year roles. Professional experience takes precedence.
+- **AI:** Deprioritize AI certifications and Agentic AI bullet when JD does not mention AI. Compress or omit the AI row entirely. Remove the LangChain/n8n bullet from experience to save space for higher-alignment content.
+- **Ownership framing:** Mirror exact JD phrase "demonstrated ownership of features from design to production support" in both Summary and Experience bullets.
+
 ### FinTech / Compliance Surveillance (Backend, e.g., ActOne)
 Keywords to prioritize if supported:
 - Java 8 and Java 17 · Spring Boot · modular microservices
@@ -237,6 +271,22 @@ Keywords to prioritize if supported:
 - **Scale:** Emphasize the 370 million requests/day metric as proof of high-throughput distributed systems experience.
 - Use Education Variant A (M.Tech) as Big Tech heavily values premier institute signals for early-career roles (2-6 years).
 
+### Big Tech / Generalist SE (Supply Chain, Enterprise Solutions)
+Keywords to prioritize if supported:
+- Designing, developing, and maintaining software solutions (exact JD phrasing — mirror in Summary and bullet 1)
+- Scalable, high-performance software solutions · Architect efficient solutions
+- Clean, maintainable, and well-documented code · Best practices and coding standards (use exact phrases)
+- Code reviews, testing, and debugging (surface all three explicitly in both Skills and Experience)
+- Cross-functional teams · Understand business requirements · Translate into technical solutions
+- Latest technologies, frameworks, and industry trends (map to AI tooling adoption as proof of staying current)
+- Problem-solving and analytical skills · Think critically and creatively
+- Agile software development methodologies
+- **Framing for intentionally broad JDs:** When a Big Tech JD lists only "Java, Python, or C++" without specifying frameworks/databases/cloud, the JD is testing for engineering fundamentals, not stack expertise. Lead with breadth: list all truthful languages from the JD's list. Emphasize design patterns, system design, SDLC, and problem-solving over specific tools.
+- **Skills Structure:** Use 6 rows: "Languages" (lead with JD-listed languages), "Backend & Architecture", "Databases", "Cloud & DevOps", "Quality & Observability", "Software Engineering". Surface "Debugging" explicitly in Quality row — often overlooked but explicitly requested.
+- **AI as "staying current":** Frame AI tools (GitHub Copilot, Claude Code, LangChain) as evidence of "staying up-to-date with the latest technologies" rather than a standalone capability.
+- **Supply chain / logistics domain:** This is a genuine gap. Do not fabricate. Frame SAP Cloud ALM's enterprise-scale operations monitoring as adjacent evidence of building solutions for complex operational workflows.
+- **Education:** Use Variant A (BITS M.Tech + OUTR B.Tech). Big Tech heavily values premier institute signals.
+
 ### Industrial Tech / Complex Software Applications (e.g., Honeywell)
 Keywords to prioritize if supported:
 - Design, development, and implementation of complex software applications
@@ -258,6 +308,27 @@ Keywords to prioritize if supported:
 - Quality Assurance, Debugging & Documentation
 - **Salesforce framing:** Explicitly state the Trailhead Ranger rating and hands-on Salesforce Lightning experience in the Summary. Create a dedicated "Salesforce & CRM" skills row to ensure ATS visibility for declarative (Flows, Validation Rules) and programmatic (Apex, LWC) Salesforce skills.
 - **Education:** For roles requiring Computer Science or equivalent, use Education Variant A (M.Tech Software Engineering) if it strengthens the profile for entry-level positions where core programming principles (OOP, SQL) are tested.
+### Identity Security / Agentic AI Platforms (e.g., Ambient Security)
+Keywords to prioritize if supported:
+- Identity risk reduction · Privileged access management (PAM) · Least privilege
+- Back-End Web Development · RESTful APIs · Microservices · Scalable server-side architectures
+- Clean, testable code · Troubleshooting production issues
+- Computer Science concepts · Object-Oriented Programming (OOP)
+- Cloud platforms (AWS) · Distributed systems
+- **Security & AI Framing:** Frame the Agentic AI (LangChain/n8n) experience as directly applicable to "agentic AI security" and identity risk reduction. Map RBAC implementation to "identity and access management (IAM)" and "least privilege".
+- **CS Fundamentals:** Explicitly surface "Computer Science concepts (data structures, algorithms, systems design)" in the summary and skills. Use Education Variant A to reinforce strong engineering fundamentals.
+- **Skills Row:** Rename "Security" to "Security & AI" or similar to align with the AI-native security platform positioning.
+### Aviation / Airlines IT Software (e.g., American Airlines)
+Keywords to prioritize if supported:
+- Reliability, resiliency, security, and performance
+- Technical work products · Clean, concise, tested code
+- Debugs design-time and run-time problems · Observable telemetry
+- CI/CD DevOps toolchain · Automation opportunities
+- Java, Spring Boot, Microservices, REST APIs, JavaScript
+- JUnit, Mockito, Test Automation
+- **Messaging:** Use exact terminology "Apache Kafka" and "high-volume transactions".
+- **Tooling:** Explicitly mention Kibana and Grafana mapped to "observable telemetry". Highlight JUnit/Mockito for test automation.
+- **NodeJS/TypeScript Constraint:** If NodeJS/TypeScript are mandatory but not genuine, maximize JavaScript and React (from project experience) to hit partial keywords while staying truthful, and heavily lean into the mandatory Java/Spring Boot/Microservices/REST APIs.
 ### Systems / Infrastructure / Hardware-Adjacent (e.g., Networking companies)
 Keywords to prioritize if supported:
 - Codes and programs enhancements, updates, and changes (mirror JD verb exactly)
@@ -297,6 +368,21 @@ Keywords to prioritize if supported:
 - Claude (Anthropic) — when JD explicitly names it, list in skills by full name for direct ATS match
 - Agentic AI — surface prominently for AI-forward engineering JDs
 
+### Solutions Engineering / Customer Success / AI Implementation (e.g., Unisys, Anthropic partners)
+Keywords to prioritize if supported:
+- Large language models (LLMs) · Agentic AI · Prompt engineering · RAG pipelines
+- REST APIs · API integration · System design principles
+- Implement, optimize, and support AI-based solutions (mirror JD language)
+- Explain complex technical concepts clearly (surface in summary and bullets)
+- Cross-functional collaboration · Client value delivery · Stakeholder communication
+- Growth mindset around AI and emerging tooling (exact phrase for AI-forward roles)
+- Claude (Anthropic) — list explicitly by full name in Skills when JD references Claude-based solutions
+- **Framing:** Reframe the summary around "implementing and optimizing AI solutions" and "bridging AI technology with real-world business applications." Surface client-incident resolution bullets as evidence of customer-facing problem solving.
+- **AI row:** Elevate AI & Automation to row 2 in Skills (after Languages). List: LLMs, RAG, Agentic AI, LangChain, Prompt Engineering, Claude (Anthropic), GitHub Copilot.
+- **Education:** Use Variant A for 0–2 year roles. M.Tech signal strengthens profile for early-career Solutions Engineer roles.
+- **Certifications:** Lead with SAP Generative AI Developer; surface RAG/Agentic Systems cert second. These are exceptional differentiators for AI implementation roles where most candidates lack formal AI credentials.
+- **Genuine gap:** No formal customer-facing or solutions engineering title — frame production incident resolution and cross-functional delivery as indirect evidence of client-value orientation. Do not claim dedicated customer success experience.
+
 ### Retail / Enterprise Platform (Mid-Level / SDE 2)
 Keywords to prioritize if supported:
 - Technical leadership of medium to large features · End-to-end stories
@@ -317,6 +403,17 @@ Keywords to prioritize if supported:
 - AI-Augmented Development (GitHub Copilot, Claude Code) — elevate to dedicated skills row if JD emphasizes developer productivity tools
 - When Node.js/TypeScript is a genuine gap: maximize adjacent matches, flag clearly
 - **FinTech Full-Stack variant:** When the JD is for a Full Stack role at a financial services firm, frame the summary as "Full Stack Developer" and surface "frontend and backend layers" (exact JD phrase). Lead the Skills row with "Languages & Frontend" combining Java, JavaScript, HTML, CSS, React. Use inline SQL/NoSQL labeling: `PostgreSQL (SQL)`, `Redis (NoSQL)`. Mirror JD verbs exactly in experience bullets (e.g., "debug, troubleshoot, and optimize applications for performance, usability, and reliability"). Deprioritise AI certifications when JD does not mention AI. Use Education Variant A for 1–3 year roles.
+- **Retail Full-Stack variant:** When JD requires retail domain + Full Stack (Java, Web, Mobile) + SRE mindset:
+  - Frame as "Software Engineer" (not "Full Stack Developer") if JD title says "Engineer Software."
+  - Surface JavaScript, ReactJS, HTML, CSS prominently in Skills row 1 ("Languages & Frontend") to match frontend requirements. React from EBaazee project is truthful.
+  - Add "SRE Practices" or "SRE mindset" explicitly in Quality & Observability row. Map Kibana/Grafana/MTTR to production monitoring with SRE mindset.
+  - Surface "SDLC" and "Agile/Scrum" in Skills. These JDs emphasize full lifecycle and Agile methodology.
+  - GitHub Copilot is a direct ATS keyword match — surface in both Skills and Experience.
+  - Code reviews and quality standards are heavily emphasized — dedicate a bullet to quality standards, secure coding, and API documentation.
+  - **Genuine gaps for Retail Full Stack JDs:** MongoDB/Cassandra (NoSQL), Oracle/Azure SQL Server (RDBMS), Tomcat/Jetty/Netty (app servers), Selenium/Playwright/Cucumber/Karate/Appium/Espresso (test automation frameworks), Docker/Kubernetes, Mobile dev (Kotlin, Android Jetpack, iOS), Spark/Databricks/BigQuery, GraphQL, AngularJS, NodeJS (professional). Never claim these.
+  - **Retail domain gap:** Candidate has no retail domain experience. This is a genuine gap — do not fabricate. Frame SAP Cloud ALM's enterprise-scale monitoring (10,000+ systems, 370M req/day) as evidence of operating at scale with production reliability.
+  - **Mentoring gap:** With < 2 years experience, do not claim "mentoring development teams." Frame as knowledge sharing, code reviews, and quality standards adherence.
+  - **Education:** Use Variant A (BITS Pilani M.Tech + OUTR B.Tech) for 1–3 year roles to signal academic strength.
 
 
 ### Cloud-Native Architect / Java Microservices
@@ -335,6 +432,17 @@ Keywords to prioritize if supported:
 - Cloud-based SaaS · Optimized queries
 - Python scripting / automation
 - SQL/NoSQL databases (label PostgreSQL as "(SQL)" and Redis as "(NoSQL)" inline)
+
+### Test Automation, Operational Tooling & Cloud Systems Engineering
+Keywords to prioritize if supported:
+- Python for test automation, validation frameworks, tooling, CI/CD integration, or operational automation
+- RESTful APIs · Service-to-service integrations · Microservices-based applications
+- Software quality practices · Automated testing · Performance optimization · Security best practices
+- Observability, monitoring, telemetry, and operational excellence practices
+- Cloud-native distributed systems (AWS) · Modern CI/CD practices (Jenkins, Maven, Git)
+- **Framing:** Reorder Languages row to lead with Python. Group skills under "Software Quality & Observability" (Automated Testing, Test Frameworks, Observability, Telemetry).
+- **Service Integrations:** Emphasize service-to-service integrations and RESTful API contracts.
+- **Genuine Gaps:** Container orchestration (Kubernetes/Docker) and multi-cloud (Azure/GCP) should be acknowledged as gaps when mandatory in JD — never claim production Kubernetes administration.
 
 ---
 
