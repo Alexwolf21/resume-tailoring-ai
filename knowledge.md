@@ -86,6 +86,21 @@ Keywords to prioritize if supported:
 - Proof-of-concept initiatives · Evaluation of new technologies
 - Change and incident management standards · Monitoring systems capacity
 - Distributed programming (use this exact phrase when JD specifies it)
+- **Cloud-Native Product Engineering variant:** When JD combines "scalable Java-based cloud-native microservices" + "event-based architecture using Kafka" + "product development and implementation" + frontend integration (Angular/React):
+  - Mirror "cloud-native microservices" as an exact phrase in both Summary and bullet 1 (not just "microservices")
+  - Use "event-based architecture" (not "event-driven") when JD uses that exact phrasing
+  - Surface "product development" framing — SAP Cloud ALM IS a product; frame as "enterprise product platform"
+  - Surface React from EBaazee project for frontend integration requirement; add "Java" to project tech stack for ATS
+  - Surface RabbitMQ from EBaazee project to match "message brokers (Kafka, RabbitMQ)" preferred skill
+  - Mirror exact JD phrase: "full software development lifecycle, from gathering requirements to deployment and support"
+  - Mirror exact JD phrase: "debug and resolve production issues, ensuring system reliability and performance"
+  - Mirror exact JD phrase: "CI/CD pipelines for automated build, test, and deployment processes"
+  - Mirror exact JD phrase: "code reviews and best practices for software development, security, and performance"
+  - Use "Backend & Messaging" skills row label to highlight Kafka/RabbitMQ adjacency
+  - Compress AI content when JD doesn't mention AI — drop AI skills row and AI bullets entirely
+  - **Docker/EKS gap:** Docker is often mandatory in cloud-native JDs. Candidate does NOT have Docker. Genuine gap — never claim. Cloud Foundry deployment is the closest adjacency.
+  - **Education:** Use Variant B for 3+ year roles. If candidate has < 3 years, the experience gap itself is a risk to flag.
+
 
 ### Application Development & Maintenance / Support (Full Stack)
 Keywords to prioritize if supported:
@@ -287,6 +302,27 @@ Keywords to prioritize if supported:
 - **Supply chain / logistics domain:** This is a genuine gap. Do not fabricate. Frame SAP Cloud ALM's enterprise-scale operations monitoring as adjacent evidence of building solutions for complex operational workflows.
 - **Education:** Use Variant A (BITS M.Tech + OUTR B.Tech). Big Tech heavily values premier institute signals.
 
+### Banking / FS VP-Level Software Engineer (Feature Team, Platform Engineering)
+Keywords to prioritize if supported:
+- Designing, producing, testing and implementing working software (exact phrasing — mirror in Summary and bullet 1; note "producing" not "developing")
+- Resilient and long-lived software (exact phrase — use in code quality/documentation bullet)
+- Intentional architecture and formulating emergent design through innovative ideas, experimentation and prototyping (exact phrase — map to Kafka system architecture ownership)
+- Automation of build, test and deployment activities, using executable patterns (exact phrase — map to CI/CD + JUnit + deployment pipelines)
+- Production APIs/services and CI/CD pipelines (exact phrase — surface in both Summary and Skills)
+- Complex requirements analysis capture and validation against business and systems requirements (exact phrase — surface in collaboration bullet)
+- Observability solutions such as Splunk, CloudWatch or Grafana (Grafana is DIRECT match; surface Kibana/Dynatrace as additional adjacency)
+- Strong full stack experience in software design and implementation (surface EBaazee full stack for this)
+- Agile methods (note: "methods" not "methodology" — mirror exact word)
+- Principal engineers, architects (mirror collaboration hierarchy in experience bullets)
+- Stakeholder management skills · Communication skills · Communicate complex technical concepts simply
+- **VP title convention:** In banking/FS, "Vice President" is a mid-level title equivalent to SDE-2/Senior SE. Do not over-inflate the resume. Frame as solid mid-career engineer.
+- **Architectural language framing:** These JDs use distinctive language ("intentional architecture," "emergent design," "executable patterns") that signals a mature engineering culture. Mirror these phrases EXACTLY in experience bullets. Map the Kafka system design as evidence of "delivering intentional architecture" and "formulating emergent design through experimentation and prototyping."
+- **Containers gap:** JD says "familiar with building and using containers." Candidate does NOT have Docker/K8s. Genuine gap — Cloud Foundry is closest adjacency.
+- **Snowflake gap:** Genuine gap. Candidate has PostgreSQL (direct match) and Redis.
+- **Splunk/CloudWatch gap:** Genuine gaps. Candidate has Grafana (direct match), Kibana, and Dynatrace.
+- **AI compression:** When JD doesn't mention AI tools, compress entirely — drop AI skills row and AI bullets.
+- **Education:** Use Variant A. Premier institute signal is valuable for banking/FS VP roles.
+
 ### Industrial Tech / Complex Software Applications (e.g., Honeywell)
 Keywords to prioritize if supported:
 - Design, development, and implementation of complex software applications
@@ -308,6 +344,26 @@ Keywords to prioritize if supported:
 - Quality Assurance, Debugging & Documentation
 - **Salesforce framing:** Explicitly state the Trailhead Ranger rating and hands-on Salesforce Lightning experience in the Summary. Create a dedicated "Salesforce & CRM" skills row to ensure ATS visibility for declarative (Flows, Validation Rules) and programmatic (Apex, LWC) Salesforce skills.
 - **Education:** For roles requiring Computer Science or equivalent, use Education Variant A (M.Tech Software Engineering) if it strengthens the profile for entry-level positions where core programming principles (OOP, SQL) are tested.
+
+### ERP Integration Consultant (Workday / SAP Finance Integrations)
+Keywords to prioritize if supported:
+- **WARNING: WEAK MATCH ARCHETYPE.** These roles require domain-specific ERP tools and finance process knowledge that the candidate does NOT have. Only apply if explicitly asked by the user.
+- Technical implementation and integration development (reframe SE experience as "integration development")
+- REST web services (truthful — map REST APIs; note: SOAP is a genuine gap)
+- Data mapping, transformation, testing, and reconciliation (reframe Kafka data pipeline work)
+- Understand business requirements and translate them into technical integration solutions (truthful — requirements gathering is a transferable skill)
+- Troubleshooting integration issues (reframe production issue resolution as "integration troubleshooting")
+- Integration design and technical documentation (reframe API documentation)
+- Requirements gathering (truthful — cross-functional collaboration with Product)
+- **Skills reframing:** Lead with "Integration & APIs" row instead of "Backend." Surface "Data Mapping & Transformation" in Languages row. Add "Integration Testing" to Quality row. Add "Soft Skills" row for requirements gathering, communication, task management.
+- **MASSIVE genuine gaps for ERP Integration roles:**
+  - Workday Studio, EIBs, Core Connectors — core tools, never claim
+  - SOAP web services, XML, XSLT — technology gaps, never claim
+  - Financial Management processes (Order to Cash, Procure to Pay, GL, AP, AR, Expenses, Assets) — complete domain gap, never claim
+  - Finance domain experience of any kind — genuine gap
+- **Expected ATS score: ~35-45/100 even after tailoring** — the keyword overlap is fundamentally low because the JD uses a completely different technology vocabulary.
+- **Education:** Use Variant A (Bachelor's in CS/related field is explicitly listed as an alternative to 2+ years Workday experience).
+
 ### Identity Security / Agentic AI Platforms (e.g., Ambient Security)
 Keywords to prioritize if supported:
 - Identity risk reduction · Privileged access management (PAM) · Least privilege
