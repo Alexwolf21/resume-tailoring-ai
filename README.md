@@ -138,6 +138,7 @@ Use this prompt:
 > Treat `gravity.md` as the governing specification and source of truth for behavior.
 >
 > Follow every workflow step, update only the repository files specified in `gravity.md`, request any required user confirmations before tailoring, and return only the Console Summary after completion.
+> Use the email address as [Your Email Address] and phone number as [Your Phone number]
 
 No additional prompt engineering should normally be required.
 
