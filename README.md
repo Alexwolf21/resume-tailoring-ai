@@ -213,16 +213,6 @@ Detailed analysis should only be produced when explicitly requested.
 
 ---
 
-# Prompt to use
-
-Execute the workflow defined in gravity.md for the current job_description.md.
-
-Treat gravity.md as the governing specification and source of truth for behavior. Follow every workflow step, update only the repository files specified in gravity.md, ask for any required user confirmations before tailoring, and return only the Console Summary after completion.
-
-use email id as [EMAIL_ADDRESS] and phone number as 7008770676
-
----
-
 # Review Checklist
 
 Before submitting a resume, verify:
